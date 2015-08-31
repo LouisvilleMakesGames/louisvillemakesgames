@@ -1,0 +1,76 @@
+/* LMG colors */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+body {
+  background: #EA3657;
+  color: white; }
+
+a {
+  color: white; }
+
+body {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.center {
+  margin: 0 auto; }
+
+.pad, header, .content, .nav, footer {
+  padding: 10px; }
+
+body,
+.wrapper {
+  display: flex;
+  flex-direction: column; }
+
+.wrapper {
+  margin: 0 auto;
+  border: 1px solid white;
+  display: flex;
+  flex: 1; }
+  @media (min-width: 1025px) {
+    .wrapper {
+      width: 80%; } }
+  @media (min-width: 731px) and (max-width: 1024px) {
+    .wrapper {
+      width: 100%; } }
+  @media (min-width: 320px) and (max-width: 730px) {
+    .wrapper {
+      min-width: 370px;
+      max-width: 100%; } }
+
+header {
+  border: 1px solid white; }
+
+.content {
+  flex: 1;
+  border: 1px solid white; }
+
+.nav {
+  border: 1px solid white; }
+
+footer {
+  border: 1px solid white; }
+
+html {
+  font-family: "Open Sans", "helvetica neue", helvetica, verdana, sans-serif;
+  font-size: 16px;
+  line-height: 24px; }
+
+.center-inside {
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
