@@ -1,0 +1,11 @@
+{
+	"sourceDirectory": "src",
+	"destinationDirectory": "dest",
+	"dataDirectory": "data",
+	"partialsDirectory": "partials",
+	"helpersDirectory": "helpers",
+	"data": {
+		"title": "Louisville Makes Games!",
+		"layout": "layout/layout.html.hbs"
+	}
+}
