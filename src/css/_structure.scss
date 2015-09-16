@@ -4,7 +4,7 @@ padding: 0px;
 margin: 0px;
 display: flex;
 min-height: 100vh;
-flex-direction: column;
+// flex-direction: column;
   }
 
 * {
@@ -31,48 +31,141 @@ flex-direction: column;
 
 body,
 .wrapper {
-  display: flex;
-  flex-direction: column;
+  // display: flex;
+  // flex-direction: column;
 }
 
 .wrapper{
   margin: 0 auto;
   border: 1px solid white;
-  display: flex;
-  flex: 1;
+  // display: flex;
+  // flex: 1;
 
-  @include breakpoint(papa-bear) {
+  @include bp(papa-bear) {
   width: 80%;
   }
 
-  @include breakpoint(mama-bear) {
+  @include bp(mama-bear) {
   width: 100%;
   }
 
-  @include breakpoint(baby-bear) {
+  @include bp(baby-bear) {
   min-width: 370px;
   max-width: 100%;
   }
 
 }
+//
+// header{
+//   @extend .pad;
+//   border: 1px solid white;
+// }
+//
+// .content {
+//   @extend .pad;
+//   flex: 1;
+//   border: 1px solid white;
+// }
+//
+// .nav{
+//   @extend .pad;
+//   border: 1px solid white;
+// }
+//
+// footer{
+//   @extend .pad;
+//   border: 1px solid white;
+// }
 
-header{
-  @extend .pad;
-  border: 1px solid white;
+
+
+
+
+.row{
+  &:after{
+    clear: both;
+    display: table;
+    content:"";
+  }
 }
 
-.content {
-  @extend .pad;
-  flex: 1;
-  border: 1px solid white;
+.module{
+  img{
+    max-width: 100%;
+  }
+  margin: 5px;
 }
 
-.nav{
-  @extend .pad;
-  border: 1px solid white;
+[class*='col'] {
+  display: inline-block;
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  img{
+    width: 100% !important;
+  }
 }
 
-footer{
-  @extend .pad;
-  border: 1px solid white;
+.col1-1{
+  width: 100%;
+}
+
+.col1-2{
+  width: 50%;
+  @include bp(mama-bear) {
+    width: 100%;
+  }
+   @include bp(baby-bear) {
+    width: 100%;
+  }
+}
+
+.col1-3{
+  width: 33.333%;
+  @include bp(mama-bear) {
+    width: 50%;
+  }
+  @include bp(baby-bear) {
+    width: 100%;
+  }
+}
+
+.col2-3{
+  width: 66.666%;
+  @include bp(mama-bear) {
+    width: 50%;
+  }
+  @include bp(baby-bear) {
+    width: 100%;
+  }
+}
+
+.col1-4{
+  width: 25%;
+  @include bp(mama-bear) {
+    width: 50%;
+  }
+ @include bp(baby-bear) {
+    width: 100%;
+  }
+}
+
+.col1-5{
+  width: 20%;
+  @include bp(mama-bear) {
+    width: 100%;
+  }
+   @include bp(baby-bear) {
+    width: 100%;
+  }
+}
+
+.col1-6{
+  width: 16.6666666667%;
+  @include bp(mama-bear) {
+    width: 100%;
+  }
+   @include bp(baby-bear) {
+    width: 100%;
+  }
 }

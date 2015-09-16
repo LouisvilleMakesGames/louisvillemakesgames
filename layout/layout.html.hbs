@@ -1,14 +1,41 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>{{title}}</title>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{{title}}</title>
 
-		<link rel="stylesheet" href="css/main.css">
-	</head>
-	<body>
+	<link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header class='row'>
+			<div class='col2-3'>
+				<div class="title module">
+					<a href="/" class="logo" title="Louisville Makes Games!"><h1><img src="/img/logo-2015.png" alt="Louisville Makes Games!"/></h1></a>
+				</div>
+			</div>
+			<div class="col1-3">
+				<div class="donate module">
+					{{>donate}}
+				</div>
+			</div>
+		</header>
 		{{> body}}
-	</body>
+		<footer class='row'>
+			<div class='col1-2'>
+				<div class="module">
+					&copy; <script>document.write(new Date().getFullYear())</script> Louisville Makes Games, Inc.
+				</div>
+			</div>
+			<div class='col1-2'>
+				<div class="module">
+					Connect with us:<a href="http://twitter.com/loumakesgames" target="_blank"><i class="fa fa-twitter"></i></a>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+</body>
 </html>

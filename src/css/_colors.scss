@@ -2,12 +2,12 @@
 $yellow: #EDDE44;
 $pink: #EA3657;
 $blue: #6ACAD0;
-
+$light-grey: rgba(226,224,224,1);
+$grey: rgba(94,90,91, 1);
 body{
-  background: $pink;
-  color: white;
+  color: black;
 }
 
 a{
-  color: white;
+  color: $blue;
 }
