@@ -4,7 +4,7 @@
 @import"typography";
 
 @import"eventBullets";
-
+@import"flexslider";
 
 .logo{
   img{
@@ -41,7 +41,7 @@ h1, h2, h3, h4{
 }
 
 header{
-  margin-bottom: 80px;
+
 }
 
 footer{
@@ -75,5 +75,24 @@ footer{
         float: right;
         margin: 0 10% 0 0;
     }
+  }
+}
+
+.home-block{
+  border-radius: 8px 8px 0 0;
+  box-shadow: 0 0 8px 2px rgba(0,0,0,0.1);
+  p{
+    padding: 0 15px 20px 15px;
+  }
+}
+
+.heading-block{
+  width: 100%;
+  padding: 4px 15px;
+  color: white;
+  border-radius: 8px 8px 0 0;
+
+  h2, h3{
+    color: white;
   }
 }

@@ -4,10 +4,40 @@ $pink: #EA3657;
 $blue: #6ACAD0;
 $light-grey: rgba(226,224,224,1);
 $grey: rgba(94,90,91, 1);
+
 body{
   color: black;
 }
 
 a{
   color: $blue;
+}
+
+h2{
+  display: block;
+}
+
+.yellow-color{
+  color: $yellow;
+}
+
+.blue-color{
+  color: $blue;
+}
+
+.pink-color{
+  color: $pink;
+}
+
+
+.yellow-bg{
+  background-color: $yellow;
+}
+
+.blue-bg{
+  background-color: $blue;
+}
+
+.pink-bg{
+  background-color: $pink;
 }

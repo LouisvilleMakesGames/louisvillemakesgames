@@ -96,7 +96,7 @@ body,
   margin: 5px;
 }
 
-[class*='col'] {
+.column{
   display: inline-block;
   float: left;
   padding-left: 5px;
@@ -107,10 +107,12 @@ body,
 }
 
 .col1-1{
+  @extend .column;
   width: 100%;
 }
 
 .col1-2{
+  @extend .column;
   width: 50%;
   @include bp(mama-bear) {
     width: 100%;
@@ -121,6 +123,7 @@ body,
 }
 
 .col1-3{
+  @extend .column;
   width: 33.333%;
   @include bp(mama-bear) {
     width: 50%;
@@ -131,6 +134,7 @@ body,
 }
 
 .col2-3{
+  @extend .column;
   width: 66.666%;
   @include bp(mama-bear) {
     width: 50%;
@@ -141,6 +145,7 @@ body,
 }
 
 .col1-4{
+  @extend .column;
   width: 25%;
   @include bp(mama-bear) {
     width: 50%;
@@ -151,6 +156,7 @@ body,
 }
 
 .col1-5{
+  @extend .column;
   width: 20%;
   @include bp(mama-bear) {
     width: 100%;
@@ -161,6 +167,7 @@ body,
 }
 
 .col1-6{
+  @extend .column;
   width: 16.6666666667%;
   @include bp(mama-bear) {
     width: 100%;
