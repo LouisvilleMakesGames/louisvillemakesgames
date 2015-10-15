@@ -115,7 +115,7 @@ body,
   @extend .column;
   width: 50%;
   @include bp(mama-bear) {
-    width: 100%;
+    width: 50%;
   }
    @include bp(baby-bear) {
     width: 100%;
@@ -126,7 +126,7 @@ body,
   @extend .column;
   width: 33.333%;
   @include bp(mama-bear) {
-    width: 50%;
+    width: 33.333%;
   }
   @include bp(baby-bear) {
     width: 100%;
@@ -137,7 +137,7 @@ body,
   @extend .column;
   width: 66.666%;
   @include bp(mama-bear) {
-    width: 50%;
+    width: 66.666%;
   }
   @include bp(baby-bear) {
     width: 100%;
@@ -148,7 +148,7 @@ body,
   @extend .column;
   width: 25%;
   @include bp(mama-bear) {
-    width: 50%;
+    width: 25%;
   }
  @include bp(baby-bear) {
     width: 100%;
@@ -159,7 +159,7 @@ body,
   @extend .column;
   width: 20%;
   @include bp(mama-bear) {
-    width: 100%;
+    width: 20%;
   }
    @include bp(baby-bear) {
     width: 100%;
@@ -170,7 +170,7 @@ body,
   @extend .column;
   width: 16.6666666667%;
   @include bp(mama-bear) {
-    width: 100%;
+    width: 16.6666666667%;
   }
    @include bp(baby-bear) {
     width: 100%;
