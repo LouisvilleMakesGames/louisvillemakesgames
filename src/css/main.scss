@@ -5,6 +5,7 @@
 
 @import"eventBullets";
 @import"flexslider";
+@import"media";
 
 .logo{
   img{
@@ -78,9 +79,19 @@ footer{
   }
 }
 
+.home-blocks{
+  display: flex;
+  flex-direction: row;
+  @include bp(baby-bear) {
+      flex-direction: column;
+  }
+}
+
 .home-block{
+  margin: 10px;
+  flex-direction: column;
   border-radius: 8px 8px 0 0;
-  box-shadow: 0 0 8px 2px rgba(0,0,0,0.1);
+  @extend .shadow;
   p{
     padding: 0 15px 20px 15px;
   }

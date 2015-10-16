@@ -1,0 +1,13 @@
+.media.module{
+  a{
+    text-decoration: none;
+    img{}
+    .title{
+      color: $grey;
+    }
+    .date{
+      color: darken($grey, 10%);
+      font-size: .7rem;
+    }
+  }
+}

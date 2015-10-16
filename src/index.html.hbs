@@ -20,43 +20,45 @@
 	</div>
 </div>
 
-<div class='row'>
-	<div class='col1-3'>
-		<div class="module home-block">
-			<div class="heading-block yellow-bg">
-				<h2>Louisville Makes Games!</h2>
+<div class='home-blocks'>
+
+	<div class="home-block">
+		<div class="heading-block yellow-bg">
+			<h2>Louisville Makes Games!</h2>
 			<h3>An Organization</h3>
 		</div>
-			<p>The goal of Louisville Makes Games! is to promote game development as a viable career in our city through game development programming classes for kids, industry talks, art galley showcases and other events, we educate and advocate game development. Our first major project is establishing a physical space called Warp Zone which will be home-base for all things game development in Louisville.</p>
-		</div>
+		<p>The goal of Louisville Makes Games! is to promote game development as a viable career in our city through game development programming classes for kids, industry talks, art galley showcases and other events, we educate and advocate game development. Our first major project is establishing a physical space called Warp Zone which will be home-base for all things game development in Louisville.</p>
 	</div>
-	<div class='col1-3'>
-		<div class="module home-block">
-			<div class="heading-block blue-bg">
+
+	<div class="home-block">
+		<div class="heading-block blue-bg">
 			<h2>Warp Zone</h2>
 			<h3>A Space</h3>
 		</div>
-			<p> We are currently working hard to find the perfect space in Louisville to start Warp Zone. This space will be a game developer co-working and event space, meaning that monthly paying members will have full 24-hour access to office space and the ability to host their own events. The space will also be used for Louisville Makes Games! education program, and the GameDevLou meetup.</p>
-		</div>
+		<p> We are currently working hard to find the perfect space in Louisville to start Warp Zone. This space will be a game developer co-working and event space, meaning that monthly paying members will have full 24-hour access to office space and the ability to host their own events. The space will also be used for Louisville Makes Games! education program, and the GameDevLou meetup.</p>
 	</div>
-	<div class='col1-3'>
-		<div class="module home-block">
-			<div class="heading-block pink-bg">
+
+	<div class="home-block">
+		<div class="heading-block pink-bg">
 			<h2>GameDevLou</h2>
 			<h3>A Community</h3>
 		</div>
-			<p>A twice monthly meetup where you can connect with other developers. Since Janurary 2014, GameDevLou has consistantly grown in number of creative individuals and in diversity. GameDevLou is a meetup and support group for game developers of all skill levels to share ideas, be encouraging, and to inspire one another. It will always be free and open to anyone interested in creativity and collaboration. <a href="http://gamedevlou.org" target="_blank">See when the next meeting is.</a></p>
-		</div>
+		<p>A twice monthly meetup where you can connect with other developers. Since Janurary 2014, GameDevLou has consistantly grown in number of creative individuals and in diversity. GameDevLou is a meetup and support group for game developers of all skill levels to share ideas, be encouraging, and to inspire one another. It will always be free and open to anyone interested in creativity and collaboration. <a href="http://gamedevlou.org" target="_blank">See when the next meeting is.</a></p>
 	</div>
+
 </div>
 
 <div class="row">
-	<div class="col1-2">
-		<div class="module">
-			<img src="img/lmg-peeps.jpg"/>
-		</div>
+	<div class="col2-3">
+			<div class="press module">
+				<h2> In the news</h2>
+				{{#each press}}
+						{{> press}}
+				{{/each}}
+			</div>
+			<!-- <img src="img/lmg-peeps.jpg"/> -->
 	</div>
-	<div class="col1-2">
+	<div class="col1-3">
 		<div class="module">
 			<h3>Events<span>(per year)</span></h3>
 			<div class="eventBullets row">
@@ -75,7 +77,11 @@
 	</div>
 </div>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+
+
+
+<script src="js/jquery.min.js"></script>
 <script defer="" src="js/jquery.flexslider.js"></script>
 <script>
 $(window).load(function() {
