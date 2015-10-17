@@ -2,10 +2,11 @@
 @import"breakpoints";
 @import"structure";
 @import"typography";
-
 @import"eventBullets";
 @import"flexslider";
 @import"media";
+@import"footer";
+
 
 .logo{
   img{
@@ -106,4 +107,22 @@ footer{
   h2, h3{
     color: white;
   }
+}
+
+// .jams .col1-4 {
+//   &:nth-child(odd) {
+//     .jam{@extend .blue-bg;}
+//   }
+//   &:nth-child(even) {
+//     .jam{}
+//   }
+// }
+.jam{
+  @extend .pink-bg;
+  height: 100px;
+  overflow: hidden;
+  border-radius:  8px;
+  text-align: center;
+  padding: 4px 15px;
+  color: white;
 }

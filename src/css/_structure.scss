@@ -4,7 +4,6 @@ padding: 0px;
 margin: 0px;
 display: flex;
 min-height: 100vh;
-// flex-direction: column;
   }
 
 * {
@@ -31,15 +30,13 @@ min-height: 100vh;
 
 body,
 .wrapper {
-  // display: flex;
-  // flex-direction: column;
+  margin: 0 auto;
+  max-width: 1400px;
 }
 
 .wrapper{
   margin: 0 auto;
   border: 1px solid white;
-  // display: flex;
-  // flex: 1;
 
   @include bp(papa-bear) {
   width: 80%;
@@ -55,31 +52,6 @@ body,
   }
 
 }
-//
-// header{
-//   @extend .pad;
-//   border: 1px solid white;
-// }
-//
-// .content {
-//   @extend .pad;
-//   flex: 1;
-//   border: 1px solid white;
-// }
-//
-// .nav{
-//   @extend .pad;
-//   border: 1px solid white;
-// }
-//
-// footer{
-//   @extend .pad;
-//   border: 1px solid white;
-// }
-
-
-
-
 
 .row{
   &:after{
@@ -148,7 +120,7 @@ body,
   @extend .column;
   width: 25%;
   @include bp(mama-bear) {
-    width: 25%;
+    width: 50%;
   }
  @include bp(baby-bear) {
     width: 100%;
