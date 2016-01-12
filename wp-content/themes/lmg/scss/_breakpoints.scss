@@ -1,0 +1,13 @@
+// Based on work by Chris Coyier
+// http://css-tricks.com/media-queries-sass-3-2-and-codekit/
+@mixin bp($point) {
+  @if $point == papa-bear {
+    @media (min-width: 1025px)  { @content; }
+  }
+  @else if $point == mama-bear {
+    @media (min-width: 731px) and (max-width: 1024px) { @content; }
+  }
+  @else if $point == baby-bear {
+    @media (min-width: 0px) and (max-width: 730px)  { @content; }
+  }
+}

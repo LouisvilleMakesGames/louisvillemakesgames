@@ -1,0 +1,10 @@
+.logo{
+  img{
+    max-width: 408px;
+    max-height: 197px;
+    @include bp(baby-bear) {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
