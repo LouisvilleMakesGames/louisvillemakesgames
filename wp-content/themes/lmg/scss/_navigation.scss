@@ -65,6 +65,7 @@ a:active {
 .main-navigation ul ul {
 	@include bp(papa-bear) {
 		box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+		background: white;
 		float: left;
 		position: absolute;
 		top: 45px;
@@ -73,6 +74,7 @@ a:active {
     }
 	@include bp(mama-bear) {
 		box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+		background: white;
 		float: left;
 		position: absolute;
 		top: 45px;
