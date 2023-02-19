@@ -1,0 +1,21 @@
+{
+  "site": {
+    "title": "Louisville Makes Games!",
+    "subtitle": "subtitle",
+    "description": "description",
+    "google-analytics-id": "",
+    "pages": [
+      {
+        "name": "index",
+        "file": "index.html",
+        "showInNav": true
+      },
+      {
+        "name": "History",
+        "file": "history.html",
+        "showInNav": false
+      }
+    ]
+  },
+  "index": {}
+}

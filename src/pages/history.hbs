@@ -1,0 +1,27 @@
+{{>header}}
+
+<main role="main" class="container">
+  <h1> Games I have worked on </h1>
+  <div class="row">
+    {{#each portfolio.games}}
+    {{#if show}}
+    <div class="portfolio-item col-sm-6 col-xs-12">
+      <div class="row">
+
+        <div class="col-sm-6">
+          <a class="image-area" href="{{url}}"><img src="{{img}}" data-img="{{img}}" data-gif="{{gif}}"/></a>
+          </div>
+
+          <div class="col-sm-6">
+            <a class="skewed-header" href="{{url}}"><h2>{{title}}</h2></a>
+            <p>{{description}}</p>
+          </div>
+
+        </div>
+      </div>
+    {{/if}}
+    {{/each}}
+  </div>
+
+</main>
+{{>footer}}

@@ -1,0 +1,101 @@
+body {
+  background-color: #E2E0E1;
+}
+
+
+.btn-primary{
+  background-color: #6ACAD0;
+  border-color: #6ACAD0;
+}
+
+
+.btn-primary:hover{
+  background-color: #5FA3AB;
+  border-color: #5FA3AB;
+}
+
+
+footer {
+  background-color: #EA3657;
+}
+
+
+h1,
+h2,
+h3{
+  background-color: #EDDE44;
+  padding: 20px 15px;
+  transform: rotate(-2deg);
+  transition: transform 1s ease-in-out;
+}
+h1:hover,
+h2:hover,
+h3:hover{
+  transform: rotate(2deg);
+}
+
+
+
+
+.cc-zero {
+  display: inline-block;
+  margin-left: auto;
+}
+
+.cc-zero img {
+  height: 31px;
+  width: 88px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+
+.btn{
+  font-size: 1.25rem;
+  text-align: left;
+  border-radius: 0;
+  border: 0;
+}
+
+
+.btn i, h2 i{
+  margin-right: 10px;
+}
+
+.d-flex .btn{
+  margin: 5px;
+}
+
+.image-container {
+  margin: 25px 10px 0 10px;
+  position: relative;
+  display: inline-block;
+  transition: transform 1s ease-in-out;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 1s ease-in-out;
+}
+
+.image-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #EA3657;
+  transform: rotate(-5deg);
+  z-index: -1;
+ 
+}
+
+.image-container:hover{
+  transform: rotate(3deg);
+}
+

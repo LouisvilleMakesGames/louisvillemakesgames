@@ -1,0 +1,14 @@
+{
+  "src" : "src",
+  "dest" : "dest",
+  "templatesDirectory": "pages",
+
+  "templates": [
+    "home"
+  ],
+  "partialsDirectory": "partials",
+  "partials": [
+  "header",
+  "footer"
+  ]
+}
