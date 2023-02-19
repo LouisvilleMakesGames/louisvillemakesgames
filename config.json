@@ -1,6 +1,6 @@
 {
   "src" : "src",
-  "dest" : "dest",
+  "dest" : "../lmg-live-site",
   "templatesDirectory": "pages",
 
   "templates": [
