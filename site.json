@@ -5,8 +5,13 @@
   "google-analytics-id": "",
   "pages":[
     {
-      "name": "Get Started",
+      "name": "Home",
       "file": "index.html",
+      "showInNav": true
+    },
+    {
+      "name": "Resources",
+      "file": "resources.html",
       "showInNav": true
     },
     {
