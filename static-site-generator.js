@@ -24,7 +24,7 @@ function addPageData(data) {
   var newData = data;
   newData.site.pages.forEach((page) => {
     if (page.showInNav){
-      var pageName = page.name.toLowerCase();
+      var pageName = page.file.replace(".html", "").toLowerCase();
       var jsonPath = path.join(src, "pages", pageName + ".json");
       if (fs.existsSync(jsonPath)){
         newData[pageName] = require("./" + jsonPath);
@@ -37,7 +37,7 @@ function addPageData(data) {
 fs.writeFileSync("./data.json", JSON.stringify(data, null, 2));
 
 data.site.pages.forEach((page) => {
-  var pageName = page.name.toLowerCase();
+  var pageName = page.file.replace(".html", "").toLowerCase();
   var fileName = page.file;
   createPage(pageName, data, path.join(dest, fileName));
 });

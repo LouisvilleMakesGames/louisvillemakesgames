@@ -5,39 +5,39 @@
   "google-analytics-id": "",
   "pages":[
     {
-      "name": "index",
+      "name": "Get Started",
       "file": "index.html",
       "showInNav": true
     },
     {
-      "name": "education",
+      "name": "Education",
       "file": "education.html",
-      "showInNav": true
+      "showInNav": false
     },
     {
-      "name": "code-of-conduct",
+      "name": "Code of Conduct",
       "file": "code-of-conduct.html",
       "showInNav": true
     },
     {
-      "name": "donate",
+      "name": "Donate",
       "file": "donate.html",
       "showInNav": true
     },
     {
-      "name": "history",
+      "name": "History",
       "file": "history.html",
-      "showInNav": true
+      "showInNav": false
     },
     {
-      "name": "press",
+      "name": "Press",
       "file": "press.html",
-      "showInNav": true
+      "showInNav": false
     },
     {
-      "name": "contact",
+      "name": "Contact",
       "file": "contact.html",
-      "showInNav": true
+      "showInNav": false
     }
   ]
 }
