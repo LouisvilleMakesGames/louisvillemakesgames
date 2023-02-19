@@ -4,7 +4,7 @@
   "templatesDirectory": "pages",
 
   "templates": [
-    "home"
+    
   ],
   "partialsDirectory": "partials",
   "partials": [

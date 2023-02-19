@@ -39,27 +39,15 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Get Started</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Code of Conduct</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Donate</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">History</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Press</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
+
+           {{#each site.pages}}
+        {{#if showInNav}}
+        <li class="nav-item">
+          <a class="nav-link" href="/{{file}}">{{name}}</a>
+        </li>
+        {{/if}}
+        {{/each}}
+        
         </ul>
       </div>
     </div>

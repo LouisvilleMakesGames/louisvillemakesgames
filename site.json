@@ -10,9 +10,34 @@
       "showInNav": true
     },
     {
-      "name": "History",
+      "name": "education",
+      "file": "education.html",
+      "showInNav": true
+    },
+    {
+      "name": "code-of-conduct",
+      "file": "code-of-conduct.html",
+      "showInNav": true
+    },
+    {
+      "name": "donate",
+      "file": "donate.html",
+      "showInNav": true
+    },
+    {
+      "name": "history",
       "file": "history.html",
-      "showInNav": false
+      "showInNav": true
+    },
+    {
+      "name": "press",
+      "file": "press.html",
+      "showInNav": true
+    },
+    {
+      "name": "contact",
+      "file": "contact.html",
+      "showInNav": true
     }
   ]
 }
