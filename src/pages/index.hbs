@@ -4,42 +4,80 @@
 
 
   <div class="row">
-    <div class="col-md-5">
-      <div class="image-container"><img class="img-fluid" src="img/louisvillemakesgames-board.jpg"
-          alt="Placeholder Image"></div>
+    <div class="col-md-8">
+      <h1>What's going on?</h1>
+    
+ {{#each blog}}
+              {{#if featured}}
+
+        <div class="row">
+          <div class="col-md-7">
+            <article>
+             
+              <article>
+                <h2>{{title}}</h2>
+                <p>{{blurb}}</p>
+                <a href="/blog.html#{{postID}}" target="_blank">Read more</a> or <a href="{{ctaLink}}" target="_blank">{{cta}}</a>
+              </article>
+             
+
+
+          </div>
+          <div class="col-md-5">
+            <div class="image-container"><img class="img-fluid" src="{{image}}"
+                alt="{{title}}"></div>
+          </div>
+        </div>
+         {{/if}}
+              {{/each}}
+
+
+
     </div>
-    <div class="col-md-7">
+    <div class="col-md-4 callout-box">
+
+
       <h1 class="mb-4"><i class="fas fa-info-circle"></i>New here?
       </h1>
-      <p>No game development experience required, all community spaces and events are free and beginner-friendly.</p>
-      <p class="bold">Calling Artists, Animators, Storytellers, Programmers, Musicians, and all creative folks –this is the community for you!</p>
 
-      <p>Louisville Makes Games (LMG) is an inclusive community created to connect and support anyone in the
-        Louisville, Kentucky area who wants to create games! The main ways to get involved are to join our discord
-        server or attend a meetup event!</p>
-      <div class="d-flex my-3">
-        <div class="d-flex flex-column">
-          <a class="btn btn-primary mt-3" href="https://discord.gg/gZwbF94UJK" target="_blank">
-            <i class="fab fa-discord"></i> Join our Discord Server
-          </a>
-        </div>
-        <div class="d-flex flex-column">
-          <a class="btn btn-primary mt-3" href="https://www.meetup.com/LouisvilleMakesGames" target="_blank">
-            <i class="fas fa-calendar-alt mr-2"></i> Attend a virtual Event
-          </a>
-        </div>
-      </div>
+
+      <p>No game development experience required, all community spaces and events are free and beginner-friendly.</p>
+      <p class="bold">Calling Artists, Animators, Storytellers, Programmers, Musicians, and all creative folks –this is
+        the community for you!</p>
+      <a class="btn btn-primary mt-3" href="https://discord.gg/gZwbF94UJK" target="_blank">
+        <i class="fab fa-discord"></i> Join our Discord Server
+      </a>
+      <a class="btn btn-primary mt-3" href="https://www.meetup.com/LouisvilleMakesGames" target="_blank">
+        <i class="fas fa-calendar-alt mr-2"></i> Attend a virtual Event
+      </a>
+      <a class="btn btn-primary mt-3" href="resources.html" target="_blank">
+        <i class="fas fa-gamepad mr-2"></i> Get Started Making Games!
+      </a>
+
     </div>
+
   </div>
+
+  </div>
+
+
+  </div>
+  </div>
+
 
 
   <hr class="my-5">
 
 
   <div class="row">
-    <div class="col-md-7">
+    <div class="col-md-6">
       <h2 class="mb-4"><i class="fas fa-users"></i>Louisville Makes
         Games Community</h2>
+
+      <p>Louisville Makes Games (LMG) is an inclusive community created to connect and support anyone in the
+        Louisville, Kentucky area who wants to create games! The main ways to get involved are to join our discord
+        server or attend a meetup event!</p>
+
       <p>A monthly virtual meetup to connect local Louisville area game developers and those who want to learn! It
         will
         always be free and open to anyone interested in creativity and collaboration.</p>
@@ -54,8 +92,8 @@
         </div>
       </div>
     </div>
-    <div class="col-md-5">
-      <div class="image-container"><img class="img-fluid" src="img/people-hanging-out-at-Warp-Zone-Louisville.jpg"
+    <div class="col-md-6">
+      <div class="image-container"><img class="img-fluid" src="img/louisvillemakesgames-board.jpg"
           alt="Placeholder Image"></div>
     </div>
   </div>
@@ -93,7 +131,8 @@
     <div class="col-md-7">
       <h2 class="mb-4"><i class="fas fa-building"></i>What is Warp Zone?</h2>
       <p>Warp Zone Louisville is a coworking space for anyone doing creative work! It is also the home base of LMG and
-        where we host our events. All LMG events are free and open to the public, but you can work from Warp Zone Louisville
+        where we host our events. All LMG events are free and open to the public, but you can work from Warp Zone
+        Louisville
         24/7 if you become a paid member.</p>
 
 

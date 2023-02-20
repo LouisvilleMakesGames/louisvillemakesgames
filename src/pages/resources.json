@@ -1,120 +1,219 @@
 {
-	"ArtTools": [{
-			"name": "Aseprite",
-			"price": 19.99,
-			"opensource": "Yes",
-			"description": "Animation sprite editor & pixel art tool, pretty much the best thing for pixel art.",
-			"link": "https://www.aseprite.org/"
-		},
-		{
-			"name": "Krita",
-			"price": "FREE",
-			"opensource": "Yes",
-			"description": "Really nice digital painting tool",
-			"link": "https://krita.org/en/"
-		},
-		{
-			"name": "Inkscape",
-			"price": "FREE",
-			"opensource": "Yes",
-			"description": "Vector art, comparable to Adobe Illustrator, really well made.",
-			"link": "https://inkscape.org/"
-		},
-
-		{
-			"name": "Photo pea",
-			"price": "FREE",
-			"opensource": "not sure",
-			"description": "Online Photo Editor lets you edit photos, apply effects, filters, add text, crop or resize pictures in your browser",
-			"link": "https://www.photopea.com/"
-		},
-		{
-			"name": "Paint.net",
-			"price": "FREE",
-			"opensource": "not sure",
-			"description": "Free image and photo editing software for computers that run Windows.",
-			"link": "https://www.getpaint.net/"
-		},
-		{
-			"name": "Spriter",
-			"price": "$59.99",
-			"opensource": "no",
-			"description": "2d game animation tool ",
-			"link": "https://brashmonkey.com/"
-		},
-
-
-		{
-			"name": "Tiled",
-			"price": "FREE",
-			"opensource": "yes",
-			"description": "Tile map editor",
-			"link": "https://www.mapeditor.org/"
-		}
-
+	"ArtTools": [
+	  {
+		"name": "Aseprite",
+		"price": 19.99,
+		"opensource": "Yes",
+		"description": "Animation sprite editor & pixel art tool, pretty much the best thing for pixel art.",
+		"link": "https://www.aseprite.org/"
+	  },
+	  {
+		"name": "Krita",
+		"price": "FREE",
+		"opensource": "Yes",
+		"description": "Really nice digital painting tool",
+		"link": "https://krita.org/en/"
+	  },
+	  {
+		"name": "Inkscape",
+		"price": "FREE",
+		"opensource": "Yes",
+		"description": "Vector art, comparable to Adobe Illustrator, really well made.",
+		"link": "https://inkscape.org/"
+	  },
+	  {
+		"name": "Photo pea",
+		"price": "FREE",
+		"opensource": "not sure",
+		"description": "Online Photo Editor lets you edit photos, apply effects, filters, add text, crop or resize pictures in your browser",
+		"link": "https://www.photopea.com/"
+	  },
+	  {
+		"name": "Paint.net",
+		"price": "FREE",
+		"opensource": "not sure",
+		"description": "Free image and photo editing software for computers that run Windows.",
+		"link": "https://www.getpaint.net/"
+	  },
+	  {
+		"name": "Piskel",
+		"price": "FREE",
+		"opensource": "Not sure",
+		"description": "Online editor for animated sprites & pixel art",
+		"link": "https://www.piskelapp.com/"
+	  },
+	  {
+		"name": "Spriter",
+		"price": "$59.99",
+		"opensource": "no",
+		"description": "2d game animation tool ",
+		"link": "https://brashmonkey.com/"
+	  },
+	  {
+		"name": "Blender",
+		"price": "FREE",
+		"opensource": "yes",
+		"description": "Full-featured 3d modeling, rigging, and animating tool",
+		"link": "https://www.blender.org/"
+	  },
+	  {
+		"name": "Spritify for Blender",
+		"price": "FREE",
+		"opensource": "yes",
+		"description": "Generate sprites for different rotations of 3D models in the same way factorio does for it’s entities",
+		"link": "https://github.com/FreezingMoon/Spritify"
+	  }
 	],
-	"audioTools": [{
-			"name": "Ableton",
-			"price": "$99",
-			"opensource": "no",
-			"description": "professional music creation software",
-			"link": "https://www.ableton.com/en/"
-		},
-		{
-			"name": "Sfxr",
-			"price": "FREE",
-			"opensource": "yes",
-			"description": "8-bit sound generator.",
-			"link": "http://www.drpetter.se/project_sfxr.html"
-		},
-		{
-			"name": "Tenacity",
-			"price": "FREE",
-			"opensource": "yes",
-			"description": "(formerly Audacity) free and open source music/sound effect recording and editing software",
-			"link": "https://tenacityaudio.org/"
-		},
-		{
-			"name": "LMMS",
-			"price": "FREE",
-			"opensource": "yes",
-			"description": "free and open source music creation tool",
-			"link": "https://lmms.io/"
-		}
+	"gameDesignTools": [
+	  {
+		"name": "Tiled",
+		"price": "FREE",
+		"opensource": "yes",
+		"description": "Tile map editor",
+		"link": "https://www.mapeditor.org/"
+	  },
+	  {
+		"name": "Yarn Spinner",
+		"price": "FREE",
+		"opensource": "yes",
+		"description": "Great Unity plugin for adding adialogue system to a Unity game.",
+		"link": "https://yarnspinner.dev/"
+	  }
+	],
+	"organizationTools": [
+	  {
+		"name": "Trello",
+		"price": null,
+		"opensource": false,
+		"description": "Boards, lists, and cards",
+		"link": "https://trello.com/"
+	  },
+	  {
+		"name": "ClickUp",
+		"price": null,
+		"opensource": false,
+		"description": "Plan, track, and manage any type of work with project management that flexes to your team's needs",
+		"link": "https://clickup.com/"
+	  }
+	],
+	"communicationTools": [
+	  {
+		"name": "Jitsi",
+		"price": null,
+		"opensource": true,
+		"description": "Free video conferencing and messaging site",
+		"link": "https://jitsi.org/"
+	  },
+	  {
+		"name": "tlk.io",
+		"price": null,
+		"opensource": false,
+		"description": "Free chat room site.",
+		"link": "https://tlk.io/"
+	  }
+	],
+	"marketingTools": [
+	  {
+		"name": "Vlambeer Toolkit & Link Repo",
+		"price": null,
+		"opensource": false,
+		"description": "A collection of links and tools for game developers by Vlambeer, an independent game studio.",
+		"link": "http://vlambeer.com/toolkit/"
+	  }
+	],
+	"codeTools": [
+	  {
+		"name": "JSON Pretty Print",
+		"price": null,
+		"opensource": false,
+		"description": "Browser based JSON formatting tool.",
+		"link": "https://jsonformatter.org/json-pretty-print"
+	  }
+	],
+	"captureTools": [
+	  {
+		"name": "GIPHY Capture",
+		"price": "FREE",
+		"opensource": "no",
+		"description": "(Mac) Record gifs of your game with an integrated editor",
+		"link": "https://giphy.com/apps/giphycapture"
+	  },
+	  {
+		"name": "Screen 2 Gif",
+		"price": "FREE",
+		"opensource": "yes",
+		"description": "(Windows) Record gifs of your game with an integrated editor",
+		"link": "https://www.screentogif.com/"
+	  },
+	  {
+		"name": "OBS",
+		"price": "FREE",
+		"opensource": "yes",
+		"description": "Video recording and live streaming",
+		"link": "https://obsproject.com/"
+	  }
+	],
+	"audioTools": [
+	  {
+		"name": "Ableton",
+		"price": "$99",
+		"opensource": "no",
+		"description": "professional music creation software",
+		"link": "https://www.ableton.com/en/"
+	  },
+	  {
+		"name": "jSfxr",
+		"price": "FREE",
+		"opensource": "yes",
+		"description": "Browser baesed 8-bit sound generator",
+		"link": "https://sfxr.me/"
+	  },
+	  {
+		"name": "Tenacity",
+		"price": "FREE",
+		"opensource": "yes",
+		"description": "(formerly Audacity) free and open source music/sound effect recording and editing software",
+		"link": "https://tenacityaudio.org/"
+	  },
+	  {
+		"name": "LMMS",
+		"price": "FREE",
+		"opensource": "yes",
+		"description": "free and open source music creation tool",
+		"link": "https://lmms.io/"
+	  }
 	],
 	"freeAudio": [
-
-		{
-			"name": "Free Music Archive",
-			"description": "find royalty free music to use in your game projects",
-			"link": "http://freemusicarchive.org/"
-		}, {
-			"name": "freesound",
-			
-			"description": "free sound effects",
-			"link": "http://freesound.org/"
-		}
+	  {
+		"name": "Free Music Archive",
+		"description": "find royalty free music to use in your game projects",
+		"link": "http://freemusicarchive.org/"
+	  },
+	  {
+		"name": "freesound",
+		"description": "free sound effects",
+		"link": "http://freesound.org/"
+	  }
 	],
 	"freeArt": [
-        {
-            "name": "Unity Asset Store",
-            "description": "A marketplace where developers can download free and paid assets, such as 3D models and sound effects, for use in Unity projects.",
-            "link": "https://assetstore.unity.com/"
-        },
-        {
-            "name": "Kenney",
-            "description": "A game developer and artist who provides a variety of free game assets, including graphics, music, and sound effects, under a CC0 license.",
-            "link": "https://kenney.nl/"
-        },
-        {
-            "name": "Open Game Art",
-            "description": "A community-driven website hosting open-source 2D and 3D graphics, sound effects, and music for use in game development.",
-            "link": "https://opengameart.org/"
-        }
-    ],
-
-
-	"engines": [{
+	  {
+		"name": "Unity Asset Store",
+		"description": "A marketplace where developers can download free and paid assets, such as 3D models and sound effects, for use in Unity projects.",
+		"link": "https://assetstore.unity.com/"
+	  },
+	  {
+		"name": "Kenney",
+		"description": "A game developer and artist who provides a variety of free game assets, including graphics, music, and sound effects, under a CC0 license.",
+		"link": "https://kenney.nl/"
+	  },
+	  {
+		"name": "Open Game Art",
+		"description": "A community-driven website hosting open-source 2D and 3D graphics, sound effects, and music for use in game development.",
+		"link": "https://opengameart.org/"
+	  }
+	],
+	"engines": [
+	  {
 		"name": "Unity",
 		"lmgsupport": "⭐️⭐️⭐️⭐️",
 		"developfrom": "Mac, Windows, Linux",
@@ -124,8 +223,8 @@
 		"opensource": "no",
 		"whoitsfor": "If you want to make a multiplatform game in 2d or 3d",
 		"link": "https://unity.com/"
-	},
-	{
+	  },
+	  {
 		"name": "Godot",
 		"lmgsupport": "⭐️⭐️",
 		"developfrom": "Windows/ Mac/ Linux",
@@ -135,8 +234,8 @@
 		"opensource": "yes",
 		"whoitsfor": "In active developement, promising new engine reaching it’s stride",
 		"link": "https://godotengine.org/"
-	},
-	{
+	  },
+	  {
 		"name": "Twine",
 		"lmgsupport": "⭐️",
 		"developfrom": "Web Browser, Mac, Windows, Linux",
@@ -146,8 +245,8 @@
 		"opensource": "yes",
 		"whoitsfor": "If you want to create interactive fiction, text adventures etc. Very low barrier to entry",
 		"link": "https://twinery.org/"
-	},
-	{
+	  },
+	  {
 		"name": "LibGDX",
 		"lmgsupport": "⭐️",
 		"developfrom": "Mac, Windows, Linux",
@@ -157,8 +256,8 @@
 		"opensource": "yes",
 		"whoitsfor": "If you have a background and Java and love your beans.",
 		"link": "https://libgdx.com/"
-	},
-	{
+	  },
+	  {
 		"name": "Love",
 		"lmgsupport": "⭐️",
 		"developfrom": "Mac, Windows, Linux",
@@ -168,8 +267,6 @@
 		"opensource": "yes",
 		"whoitsfor": "If you want the control of an unoppinionated code-only engine without a UI",
 		"link": "https://love2d.org/"
-	}
-]
-
-	
-}
+	  }
+	]
+  }

@@ -10,6 +10,11 @@
       "showInNav": true
     },
     {
+      "name": "Blog",
+      "file": "blog.html",
+      "showInNav": true
+    },
+    {
       "name": "Resources",
       "file": "resources.html",
       "showInNav": true

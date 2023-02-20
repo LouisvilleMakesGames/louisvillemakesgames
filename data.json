@@ -11,6 +11,11 @@
         "showInNav": true
       },
       {
+        "name": "Blog",
+        "file": "blog.html",
+        "showInNav": true
+      },
+      {
         "name": "Resources",
         "file": "resources.html",
         "showInNav": true
@@ -48,6 +53,41 @@
     ]
   },
   "index": {},
+  "blog": [
+    {
+      "title": "Locally Made Games at Louisville Arcade Expo!",
+      "blogID": "lax-lmg-2023-announcement",
+      "author": "Alex Bezuska",
+      "date": "2023-02-20",
+      "featured": true,
+      "blurb": "The Louisville Arcade Expo (LAX) is just around the corner, and we at Louisville Makes Games couldn't be more excited to be a part of it! This year's event is taking place from Friday, March 12 to Sunday, March 15, 2023, and it promises to be a fantastic showcase of retro gaming and local game development talent.",
+      "contentParagraphs": [
+        "One of the main draws of the Louisville Arcade Expo is the chance to play retro arcade, console, and computer games. Whether you're a die-hard fan of classic games like Pac-Man and Space Invaders, or you're more interested in retro PC games like Doom and Quake played on a LAN, there's something for everyone at this event.",
+        "But the fun doesn't stop there - Louisville Makes Games and other local game developers will be there too, showing off our latest game projects and giving attendees a chance to play them before they're released. It's a great opportunity to see what kind of creative talent is brewing right here in Kentucky, and to get a glimpse of what the future of gaming might look like.",
+        "Of course, attending the Louisville Arcade Expo isn't free - but it's definitely worth the price of admission. A weekend pass will set you back $65, while day rates range from $20 to $35 depending on which day you attend. Kids under 10 get in for free, so it's a great way to introduce your little ones to the world of retro gaming and game development.",
+        "We can't wait to see you at the Louisville Arcade Expo! Whether you're a die-hard gamer or you're just curious about the local game development scene, this event is not to be missed. See you there!"
+      ],
+      "cta": "Get your tickets for LAX!",
+      "ctaLink": "https://www.louisvillearcade.com/",
+      "image": "/img/louisville-arcade-expo-2023-promo.jpg",
+      "imageCaptionStrong": "Locally-made indie games",
+      "imageCaptionSub": "available for all ages to try out at LAX"
+    },
+    {
+      "title": "Why Licenses Matter",
+      "author": "Alex Bezuska",
+      "date": "2023-02-19",
+      "contentParagraphs": [
+        "When creating a game project, it can be tempting to use assets found online as a shortcut to creating original content. However, it is important to pay attention to the license associated with each asset to ensure that it can be used appropriately.",
+        "Creative Commons Zero (CC0) is a public domain license that allows for free use of an asset without attribution. However, most other licenses do require some form of attribution, which means giving credit to the original artist for their work. The MIT license is one example of a license that requires attribution. Game developers should also be wary of \"viral\" licenses like the GPL v3, which requires that any derivative works also be released under the GPL v3 license.",
+        "When using other people's work in game projects, it's important to make sure that the artist receives proper credit. This can be done through including the artist's name in the game credits or on the game's page on a jam site, for example."
+      ],
+      "ctaLink": "",
+      "image": "/img/Jason-Thompson---Local-Louisville-composer.jpg",
+      "imageCaptionStrong": "Jason Thompson, Local Louisville composer",
+      "imageCaptionSub": "Photo by David R. Lutman, Courier Journal, Aug 4 2019"
+    }
+  ],
   "resources": {
     "ArtTools": [
       {
@@ -86,6 +126,13 @@
         "link": "https://www.getpaint.net/"
       },
       {
+        "name": "Piskel",
+        "price": "FREE",
+        "opensource": "Not sure",
+        "description": "Online editor for animated sprites & pixel art",
+        "link": "https://www.piskelapp.com/"
+      },
+      {
         "name": "Spriter",
         "price": "$59.99",
         "opensource": "no",
@@ -93,11 +140,107 @@
         "link": "https://brashmonkey.com/"
       },
       {
+        "name": "Blender",
+        "price": "FREE",
+        "opensource": "yes",
+        "description": "Full-featured 3d modeling, rigging, and animating tool",
+        "link": "https://www.blender.org/"
+      },
+      {
+        "name": "Spritify for Blender",
+        "price": "FREE",
+        "opensource": "yes",
+        "description": "Generate sprites for different rotations of 3D models in the same way factorio does for it’s entities",
+        "link": "https://github.com/FreezingMoon/Spritify"
+      }
+    ],
+    "gameDesignTools": [
+      {
         "name": "Tiled",
         "price": "FREE",
         "opensource": "yes",
         "description": "Tile map editor",
         "link": "https://www.mapeditor.org/"
+      },
+      {
+        "name": "Yarn Spinner",
+        "price": "FREE",
+        "opensource": "yes",
+        "description": "Great Unity plugin for adding adialogue system to a Unity game.",
+        "link": "https://yarnspinner.dev/"
+      }
+    ],
+    "organizationTools": [
+      {
+        "name": "Trello",
+        "price": null,
+        "opensource": false,
+        "description": "Boards, lists, and cards",
+        "link": "https://trello.com/"
+      },
+      {
+        "name": "ClickUp",
+        "price": null,
+        "opensource": false,
+        "description": "Plan, track, and manage any type of work with project management that flexes to your team's needs",
+        "link": "https://clickup.com/"
+      }
+    ],
+    "communicationTools": [
+      {
+        "name": "Jitsi",
+        "price": null,
+        "opensource": true,
+        "description": "Free video conferencing and messaging site",
+        "link": "https://jitsi.org/"
+      },
+      {
+        "name": "tlk.io",
+        "price": null,
+        "opensource": false,
+        "description": "Free chat room site.",
+        "link": "https://tlk.io/"
+      }
+    ],
+    "marketingTools": [
+      {
+        "name": "Vlambeer Toolkit & Link Repo",
+        "price": null,
+        "opensource": false,
+        "description": "A collection of links and tools for game developers by Vlambeer, an independent game studio.",
+        "link": "http://vlambeer.com/toolkit/"
+      }
+    ],
+    "codeTools": [
+      {
+        "name": "JSON Pretty Print",
+        "price": null,
+        "opensource": false,
+        "description": "Browser based JSON formatting tool.",
+        "link": "https://jsonformatter.org/json-pretty-print"
+      }
+    ],
+    "captureTools": [
+      {
+        "name": "GIPHY Capture",
+        "price": "FREE",
+        "opensource": "no",
+        "description": "(Mac) Record gifs of your game with an integrated editor",
+        "link": "https://giphy.com/apps/giphycapture"
+      },
+      {
+        "name": "Screen 2 Gif",
+        "price": "FREE",
+        "opensource": "yes",
+        "description": "(Windows) Record gifs of your game with an integrated editor",
+        "link": "https://www.screentogif.com/"
+      },
+      {
+        "name": "OBS",
+        "price": "FREE",
+        "opensource": "yes",
+        "description": "Video recording and live streaming",
+        "link": "https://obsproject.com/"
       }
     ],
     "audioTools": [
@@ -109,11 +252,11 @@
         "link": "https://www.ableton.com/en/"
       },
       {
-        "name": "Sfxr",
+        "name": "jSfxr",
         "price": "FREE",
         "opensource": "yes",
-        "description": "8-bit sound generator.",
-        "link": "http://www.drpetter.se/project_sfxr.html"
+        "description": "Browser baesed 8-bit sound generator",
+        "link": "https://sfxr.me/"
       },
       {
         "name": "Tenacity",

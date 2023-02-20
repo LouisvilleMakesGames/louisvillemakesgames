@@ -1,5 +1,7 @@
 {{>header}}
 <main class="container my-5">
+
+  <img src="/img/heres-where-to-start.png">
   <ul class="nav nav-tabs" id="myTab" role="tablist">
     <li class="nav-item" role="presentation">
       <button class="nav-link  text-light active" id="gamejams-tab" data-bs-toggle="tab" data-bs-target="#gamejams"
@@ -17,6 +19,12 @@
       <button class="nav-link text-light" id="tools-tab" data-bs-toggle="tab" data-bs-target="#tools" type="button"
         role="tab" aria-controls="tools" aria-selected="false">Tools</button>
     </li>
+
+    <li class="nav-item" role="presentation">
+      <button class="nav-link text-light" id="freeAssets-tab" data-bs-toggle="tab" data-bs-target="#freeAssets" type="button"
+        role="tab" aria-controls="freeAssets" aria-selected="false">Free Assets</button>
+    </li>
+
     <li class="nav-item" role="presentation">
       <button class="nav-link text-light" id="resources-tab" data-bs-toggle="tab" data-bs-target="#resources"
         type="button" role="tab" aria-controls="resources" aria-selected="false">Helpful Links</button>
@@ -107,6 +115,8 @@
 
 
     <div class="tab-pane fade" id="engines" role="tabpanel" aria-labelledby="engines-tab">
+
+      <p>The 'LMG community support' column lets you know how widely used the given engine is in our local community, these are engines that folks in our group are willing to help new game developers with questions about any issues you might encounter.</p>
       <table class="table table-hover table-striped table-dark">
         <thead>
           <tr>
@@ -197,6 +207,129 @@
         </tbody>
       </table>
 
+         <h4>Code Tools</h4>
+      <table class="table table-hover table-striped table-dark">
+        <thead>
+          <tr>
+            <th>Tool</th>
+            <th>Price</th>
+            <th>Open Source</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each resources.codeTools}}
+          <tr>
+            <td><a href="{{link}}" target="_blank">{{name}}</a></td>
+            <td>{{price}}</td>
+            <td>{{opensource}}</td>
+
+            <td>{{description}}</td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
+
+   <h4>Game Design Tools</h4>
+      <table class="table table-hover table-striped table-dark">
+        <thead>
+          <tr>
+            <th>Tool</th>
+            <th>Price</th>
+            <th>Open Source</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each resources.gameDesignTools}}
+          <tr>
+            <td><a href="{{link}}" target="_blank">{{name}}</a></td>
+            <td>{{price}}</td>
+            <td>{{opensource}}</td>
+
+            <td>{{description}}</td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
+
+   <h4>Communication Tools</h4>
+      <table class="table table-hover table-striped table-dark">
+        <thead>
+          <tr>
+            <th>Tool</th>
+            <th>Price</th>
+            <th>Open Source</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each resources.communicationTools}}
+          <tr>
+            <td><a href="{{link}}" target="_blank">{{name}}</a></td>
+            <td>{{price}}</td>
+            <td>{{opensource}}</td>
+
+            <td>{{description}}</td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
+
+
+   <h4>Marketing Tools</h4>
+      <table class="table table-hover table-striped table-dark">
+        <thead>
+          <tr>
+            <th>Tool</th>
+            <th>Price</th>
+            <th>Open Source</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each resources.marketingTools}}
+          <tr>
+            <td><a href="{{link}}" target="_blank">{{name}}</a></td>
+            <td>{{price}}</td>
+            <td>{{opensource}}</td>
+
+            <td>{{description}}</td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
+
+   <h4>Organization Tools</h4>
+      <table class="table table-hover table-striped table-dark">
+        <thead>
+          <tr>
+            <th>Tool</th>
+            <th>Price</th>
+            <th>Open Source</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each resources.organizationTools}}
+          <tr>
+            <td><a href="{{link}}" target="_blank">{{name}}</a></td>
+            <td>{{price}}</td>
+            <td>{{opensource}}</td>
+
+            <td>{{description}}</td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
+
+
+
+    </div>
+
+
+<div class="tab-pane fade" id="freeAssets" role="tabpanel" aria-labelledby="freeAssets-tab">
+{{!-- assets tab --}}
       <h4>Free Audio</h4>
       <table class="table table-hover table-striped table-dark">
         <thead>
@@ -232,10 +365,7 @@
           {{/each}}
         </tbody>
       </table>
-    </div>
-
-
-
+</div>
 
     <div class="tab-pane fade" id="resources" role="tabpanel" aria-labelledby="resources-tab">
       <h1>Helpful Links</h1>
@@ -257,30 +387,14 @@
       </ul>
 
 
-      <h2>Game Dialogue</h2>
-      <ul>
-        <li><a href="https://yarnspinner.dev/" target="_blank">Yarn Spinner</a> - Great Unity plugin for adding a
-          dialogue system to your game.</li>
 
-      </ul>
-
-
-      <h2>Team / task organization</h2>
-      <ul>
-        <li><a href="https://trello.com/" target="_blank">Trello</a> - Boards, lists, and cards</li>
-        <li><a href="https://jitsi.org/" target="_blank">Jitsi</a> - Free video conferencing and messaging site</li>
-        <li><a href="https://tlk.io/" target="_blank">tlk.io</a> - Free chat room site.</li>
-      </ul>
-
-
+      
       <h2>Marketing</h2>
       <ul>
-
         <li><a href="http://www.gamasutra.com/blogs/VaheKocharyan/20140628/219850/Zero_Budget_Marketing.php"
             target="_blank">Zero Budget Marketing</a> - An article on Gamasutra about marketing indie games on a zero
           budget.</li>
-        <li><a href="http://vlambeer.com/toolkit/" target="_blank">Vlambeer Toolkit &amp; Link Repo</a> - A collection
-          of links and tools for game developers by Vlambeer, an independent game studio.</li>
+        
         <li><a href="http://www.pixelprospector.com/" target="_blank">Pixel Prospector</a> - A website with various
           resources for game developers, such as game engines, tutorials, and assets.</li>
       </ul>
@@ -289,8 +403,8 @@
       <ul>
         <li><a href="https://docs.google.com/document/d/1A9DB-Lq69MC-P_powcAHLVCuVgifxHDFSLW0VSr-Ia0/edit?usp=sharing"
             target="_blank">Post Mortem Template </a> - A template for writing about your game jam projects.</li>
-        <li><a href="http://www.spriters-resource.com/" target="_blank">The Spriters Resource</a> - A website with a
-          collection of video game sprites and other game assets.</li>
+        <li><a href="http://www.spriters-resource.com/" target="_blank">The Spriters Resource</a> - A website with a collection of video game sprites and other game assets.</li>
+  
       </ul>
 
    
