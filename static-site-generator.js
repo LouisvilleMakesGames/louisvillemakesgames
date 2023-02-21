@@ -16,20 +16,30 @@ copydir.sync(path.join(src, "img"), path.join(dest, "img"));
 makeDirIfNotExist(path.join(dest, "js"));
 copydir.sync(path.join(src, "js"), path.join(dest, "js"));
 
+
+
 let data = {};
 data.site = site;
 addPageData(data);
 
 function addPageData(data) {
   var newData = data;
+
+
   newData.site.pages.forEach((page) => {
     if (page.showInNav){
       var pageName = page.file.replace(".html", "").toLowerCase();
+
+      
       var jsonPath = path.join(src, "pages", pageName + ".json");
       if (fs.existsSync(jsonPath)){
         newData[pageName] = require("./" + jsonPath);
       }
     }
+  });
+
+  newData["games"].sort(function(a, b) {
+    return new Date(b.released) - new Date(a.released);
   });
   return newData;
 }
@@ -39,6 +49,7 @@ fs.writeFileSync("./data.json", JSON.stringify(data, null, 2));
 data.site.pages.forEach((page) => {
   var pageName = page.file.replace(".html", "").toLowerCase();
   var fileName = page.file;
+  
   createPage(pageName, data, path.join(dest, fileName));
 });
 

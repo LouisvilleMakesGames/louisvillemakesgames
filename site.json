@@ -15,6 +15,11 @@
       "showInNav": true
     },
     {
+      "name": "Games",
+      "file": "games.html",
+      "showInNav": true
+    },
+    {
       "name": "Resources",
       "file": "resources.html",
       "showInNav": true

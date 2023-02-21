@@ -16,6 +16,11 @@
         "showInNav": true
       },
       {
+        "name": "Games",
+        "file": "games.html",
+        "showInNav": true
+      },
+      {
         "name": "Resources",
         "file": "resources.html",
         "showInNav": true
@@ -60,7 +65,7 @@
       "author": "Alex Bezuska",
       "date": "2023-02-20",
       "featured": true,
-      "blurb": "The Louisville Arcade Expo (LAX) is just around the corner, and we at Louisville Makes Games couldn't be more excited to be a part of it! This year's event is taking place from Friday, March 12 to Sunday, March 15, 2023, and it promises to be a fantastic showcase of retro gaming and local game development talent.",
+      "blurb": "The Louisville Arcade Expo (LAX) is just around the corner, and we at Louisville Makes Games couldn't be more excited to be a part of it! This year's event is taking place from Friday, March 10 to Sunday, March 12, 2023, and it promises to be a fantastic showcase of retro gaming and local game development talent.",
       "contentParagraphs": [
         "One of the main draws of the Louisville Arcade Expo is the chance to play retro arcade, console, and computer games. Whether you're a die-hard fan of classic games like Pac-Man and Space Invaders, or you're more interested in retro PC games like Doom and Quake played on a LAN, there's something for everyone at this event.",
         "But the fun doesn't stop there - Louisville Makes Games and other local game developers will be there too, showing off our latest game projects and giving attendees a chance to play them before they're released. It's a great opportunity to see what kind of creative talent is brewing right here in Kentucky, and to get a glimpse of what the future of gaming might look like.",
@@ -79,13 +84,407 @@
       "date": "2023-02-19",
       "contentParagraphs": [
         "When creating a game project, it can be tempting to use assets found online as a shortcut to creating original content. However, it is important to pay attention to the license associated with each asset to ensure that it can be used appropriately.",
+        "Understanding Creative Commons Zero and Other Licenses",
         "Creative Commons Zero (CC0) is a public domain license that allows for free use of an asset without attribution. However, most other licenses do require some form of attribution, which means giving credit to the original artist for their work. The MIT license is one example of a license that requires attribution. Game developers should also be wary of \"viral\" licenses like the GPL v3, which requires that any derivative works also be released under the GPL v3 license.",
-        "When using other people's work in game projects, it's important to make sure that the artist receives proper credit. This can be done through including the artist's name in the game credits or on the game's page on a jam site, for example."
+        "Giving Credit to Artists",
+        "When using other people's work in game projects, it's important to make sure that the artist receives proper credit. This can be done through including the artist's name in the game credits or on the game's page on a jam site, for example. Some licenses may also require a link back to the originaly work or the creator's website.",
+        "TL;DR:",
+        "Use Creative Commons or MIT licensed assets, be wary of GPL, and credit the artist."
       ],
       "ctaLink": "",
       "image": "/img/Jason-Thompson---Local-Louisville-composer.jpg",
       "imageCaptionStrong": "Jason Thompson, Local Louisville composer",
       "imageCaptionSub": "Photo by David R. Lutman, Courier Journal, Aug 4 2019"
+    }
+  ],
+  "games": [
+    {
+      "show": true,
+      "name": "Curse of Eternity",
+      "creator": "Imakeda Games",
+      "started": "",
+      "complete": true,
+      "price": "$19.99",
+      "released": "2022-12-01",
+      "image": "/img/curse-of-eternity.jpg",
+      "link": "https://store.steampowered.com/app/1230000/Curse_of_Eternity/",
+      "pitch": "A hardcore Action RPG with diverse combat and feats-based multiclassing. Start as one of three hero builds and either continue to specialize, or branch out and make your build your own. Slice, shoot, and zap your way through a dystopian world and fulfill your own deific journey."
+    },
+    {
+      "show": true,
+      "name": "The Boneyard",
+      "creator": "Jonah Segree - galactical",
+      "started": "2022",
+      "complete": true,
+      "price": "$3.00",
+      "released": "2022/10/28",
+      "image": "/img/games/the-boneyard.png",
+      "link": "https://galactical.itch.io/the-boneyard",
+      "pitch": "A Halloween themed domino deck-builder roguelike. Connect dominoes on the board to attack skeletons, and possess your dominoes with ghostly spirits that provide unique strategic abilities. There are over a dozen unique upgrades, with various synergies waiting to be found."
+    },
+    {
+      "show": true,
+      "name": "Little Ninja",
+      "creator": "Adam Stankiewicz",
+      "started": "2022",
+      "complete": true,
+      "price": "$0.99",
+      "released": "2022-04-15",
+      "image": "/img/games/little-ninja.jpg",
+      "link": "https://store.steampowered.com/app/1923730/Little_Ninja/",
+      "pitch": "You are a young 8 year old boy named Liam, you recently got a ninja mask for a birthday present! You must protect the house from evil doers! You must be sneaky, and make sure to not get caught!"
+    },
+    {
+      "show": true,
+      "complete": true,
+      "name": "Plague Doctor: Contagion 430 BCE–2020 AD",
+      "released": "2021-10-15",
+      "creator": "Actors Theatre of Louisville, Two Scoop Games",
+      "image": "/img/games/plague-doctor.jpg",
+      "link": "https://store.steampowered.com/app/1450640/Plague_Doctor_Contagion_430_BCE2020_AD",
+      "pitch": "Athens, 430 BCE. Marseille, 1720. Philadelphia, 1918. Louisville, 2020. Explore four cities—each battling a deadly epidemic—and make choices that will save or cost the lives of countless people. A first-person narrative adventure about greed, compassion, and courage in times of crisis."
+    },
+    {
+      "show": true,
+      "name": "Jeebo & Jerbo vs. Life",
+      "creator": "StegTech",
+      "started": "2018",
+      "complete": true,
+      "price": "$19.99",
+      "released": "2021-10-01",
+      "image": "/img/games/jeebo-and-jerbo-vs-life.jpg",
+      "link": "https://store.steampowered.com/app/1751110/Jeebo__Jerbo_vs_Life/",
+      "pitch": "A 2D Metroidvania crossed with an old school JRPG. Collect new party members for use in turn based battles and for additional overworld movement abilities to access new areas of the map! Take on an oppressive society with this bizarre satirical adventure!"
+    },
+    {
+      "show": true,
+      "name": "The Hunger: Games Ensemble",
+      "price": "$3.99",
+      "image": "/img/the-hunger-games-ensamble.jpg",
+      "released": "2020-11-03",
+      "creator": "Spacetronaut",
+      "complete": true,
+      "pitch": "A Collection Of Hilarious VR Games!",
+      "link": "https://store.steampowered.com/app/1097820/The_Hunger_Games_Ensemble/"
+    },
+    {
+      "show": true,
+      "name": "Shoot 1UP DX",
+      "creator": "Mommy's Best Games",
+      "complete": true,
+      "price": "$5.99",
+      "released": "2020-10-15",
+      "image": "/img/games/shoot-1up.jpg",
+      "link": "http://mommysbestgames.com/shoot1up.html",
+      "pitch": "Why play shoot 'em ups one ship at a time? Launch them all at once! Unleash an entire armada of ships in Shoot 1UP!"
+    },
+    {
+      "complete": true,
+      "name": "Moving In",
+      "pitch": "A cooperative card game about relationships, furniture shopping, and compromise",
+      "jam": "Global Game jam 2019",
+      "released": "2019-01-27",
+      "link": "https://globalgamejam.org/2019/games/moving-1",
+      "creator": "Alex Bezuska, Eric Lathrop, Barry Rowe",
+      "image": "http://via.placeholder.com/1920X1080"
+    },
+    {
+      "show": true,
+      "name": "Pig Eat Ball",
+      "creator": "Mommy's Best Games",
+      "complete": true,
+      "price": "$14.99",
+      "released": "2018-09-27",
+      "image": "/img/games/pig-eat-ball.jpg",
+      "link": "http://mommysbestgames.com/pigeatball.html",
+      "pitch": "Pig Eat Ball is a top-down, action-adventure about eating, getting fat, and barfing on things to solve levels. Explore 20 giant space stations to find different Disguises, and using their Pros and Cons, fight and solve your way through over 200 action-puzzle levels using new, arcade-style mechanics."
+    },
+    {
+      "show": true,
+      "name": "monad",
+      "creator": "Glenn Essex",
+      "started": "2018",
+      "complete": true,
+      "price": "Free",
+      "released": "2018-08-19",
+      "image": "/img/games/monad - Glenn Essex.png",
+      "link": "https://shinyogre.itch.io/monad",
+      "pitch": "A meditative experience meant for solitary contemplation in a dark, quiet room with surround sound or headphones."
+    },
+    {
+      "show": true,
+      "complete": true,
+      "image": "/img/games/housekeeping-vr.jpg",
+      "link": "https://store.steampowered.com/app/556520/Housekeeping_VR/",
+      "name": "Housekeeping VR",
+      "pitch": "Housekeeping VR is a physics-based action game with a 70s futurist style for the Vive and Rift. It's a race against the clock as you completely destroy luxurious apartments in an attempt to make as much money as you can, and buy the biggest arsenal of tools to do the job!",
+      "released": "2017-02-21",
+      "creator": "Peach Pie Productions",
+      "price": "$4.99"
+    },
+    {
+      "name": "PullPals",
+      "started": "2017",
+      "complete": true,
+      "price": "Free",
+      "released": "2017",
+      "image": "http://via.placeholder.com/1920X1080",
+      "link": "",
+      "pitch": "Pull, move, and fling cute stretchy monster babies to solve puzzles!",
+      "creator": "Alex Bezuska, Eric Lathrop, Jake Mercer"
+    },
+    {
+      "show": true,
+      "name": "Emoji Scream",
+      "creator": "Mommy's Best Games",
+      "complete": true,
+      "price": "$1.99",
+      "released": "2016-12-14",
+      "image": "/img/games/emoji-scream.png",
+      "link": "http://mommysbestgames.com/emojiscream.html",
+      "pitch": "Smiley's had enough. He's mad.So mad he could SCREAM."
+    },
+    {
+      "show": true,
+      "name": "Zombie Party",
+      "creator": "Peach Pie Productions",
+      "started": null,
+      "complete": true,
+      "price": "$9.99",
+      "released": "2016-06-10",
+      "image": "/img/games/zombie-party.jpg",
+      "link": "https://store.steampowered.com/app/384500/Zombie_Party/",
+      "pitch": "Zombie Party is a retro rampage of fun and over-the-top action, while still giving the players a deep and engaging Action-RPG Rogue-like experience! Go on a time traveling adventure, or delve deep into procedural dungeons full of gold, loot, and secrets!"
+    },
+    {
+      "name": "Cluster Junk",
+      "creator": "Eric Lathrop, Alex Bezuska, Cara Smith, Ben Wiley",
+      "started": "2015",
+      "complete": true,
+      "price": "Free",
+      "released": "2015-12-11",
+      "image": "http://via.placeholder.com/1920X1080",
+      "link": "/clusterjunk/",
+      "pitch": "There are millions of tons of trash floating in the oceans. So what goes on while no one is looking in these trash piles?"
+    },
+    {
+      "show": true,
+      "name": "Game Type",
+      "creator": "Mommy's Best Games",
+      "complete": true,
+      "price": "$2.99",
+      "released": "2015-09-23",
+      "image": "/img/games/game-type.jpg",
+      "link": "http://mommysbestgames.com/GameTypeDX/index.html",
+      "pitch": "Help Hoodie Girl fight the evil MediaBall's inane advertisements! It's a looping shooter in which each loop increases the speed and difficulty!"
+    },
+    {
+      "show": true,
+      "name": "Explosionade",
+      "creator": "Mommy's Best Games",
+      "released": "2015-09-23",
+      "price": "$3.99",
+      "image": "/img/games/explosionade.jpg",
+      "link": "http://mommysbestgames.com/explosionade.html",
+      "pitch": "Pilot an experimental mech and shoot giant grenades to blow up sneaky aliens. Stomp their guts, destroy their base, and save the day!"
+    },
+    {
+      "show": true,
+      "name": "Weapon of Choice",
+      "creator": "Mommy's Best Games",
+      "completed": true,
+      "price": "$4.99",
+      "released": "2015-09-23",
+      "image": "/img/games/weapon-of-choice.jpg",
+      "link": "http://mommysbestgames.com/weaponofchoice.html",
+      "pitch": "Weapon of Choice is a high-energy, side-scroller in which each playable character is unique with their own special weapon and abilities! Blast insane aliens, find new player characters, and choose between branching paths!"
+    },
+    {
+      "name": "Treatment and Control",
+      "creator": "Alex Bezuska, Chris Kincaid, Eric Lathrop",
+      "started": "2015",
+      "complete": true,
+      "price": "Free",
+      "released": "2015-08-21",
+      "image": "http://via.placeholder.com/1920X1080",
+      "link": "/treatmentandcontrol/",
+      "pitch": "Congratulations on your new job, citizen! You must report for duty on Monday to office #74 to distribute vital medication to our workforce."
+    },
+    {
+      "show": true,
+      "name": "Finger Derpy",
+      "creator": "Mommy's Best Games",
+      "complete": true,
+      "price": "Free",
+      "released": "2015-04-19",
+      "image": "/img/games/finger-derpy.jpg",
+      "link": "http://mommysbestgames.com/fingerderpy.html",
+      "pitch": "Run like never before! Race derpy horses with wacky physics to beat the finish line!"
+    },
+    {
+      "name": "Uprooted",
+      "creator": "Alex Bezuska, Eric Lathrop",
+      "started": "2015",
+      "complete": true,
+      "price": "Free",
+      "released": "2015",
+      "image": "http://via.placeholder.com/1920X1080",
+      "link": "/uprooted/",
+      "pitch": "Help a lost carrot get back to the carrot patch, but watch out for evil rabbits!"
+    },
+    {
+      "name": "Desserts Killed Your Daddy",
+      "creator": "Alex Bezuska, Eric Lathrop",
+      "started": "2014",
+      "complete": true,
+      "price": "Free",
+      "released": "2014-12-05",
+      "image": "http://via.placeholder.com/1920X1080",
+      "link": "",
+      "pitch": "Can you get to 50 points and defeat the GINGERBOSS?"
+    },
+    {
+      "name": "Stanley Squeaks and the Emerald Burrito",
+      "creator": "Alex Bezuska, Eric Lathrop, Wai Ying Lam",
+      "started": "August 22nd, 2014",
+      "complete": true,
+      "price": "Free",
+      "released": "2014-08-22",
+      "image": "http://via.placeholder.com/1920X1080",
+      "link": "/stanleysqueaks/",
+      "pitch": "Help Stanley solve puzzles and avoid traps in an ancient temple while on a quest to obtain the elusive emerald burrito."
+    },
+    {
+      "name": "Mr. Fluffykins' Great Sorting Adventure",
+      "creator": "Alex Bezuska, Nathan Hutchens, Eric Lathrop, Rex Soriano, Anthony Quisenberry, Aaron Smith",
+      "started": "2014",
+      "complete": true,
+      "price": "Free",
+      "released": "2014-04-25",
+      "image": "http://via.placeholder.com/1920X1080",
+      "link": "",
+      "pitch": "​Take a peek inside your home internet router to see how all those crazy cat pictures actually get to your computer."
+    },
+    {
+      "name": "SyRUSH",
+      "started": "2013",
+      "complete": true,
+      "price": "Free",
+      "released": "2014-03-24",
+      "image": "http://via.placeholder.com/1920X1080",
+      "link": "",
+      "pitch": "Feel the rush in this fast-paced arcade style game where you tap waffle squares to fill your waffle with the perfect distribution of mouth-watering toppings.",
+      "creator": "Alex Bezuska, Eric Lathrop"
+    },
+    {
+      "name": "The Day the World Changed",
+      "creator": "Alex Bezuska, Eric Lathrop",
+      "started": "",
+      "complete": true,
+      "price": "Free",
+      "released": "2014",
+      "image": "http://via.placeholder.com/1920X1080",
+      "link": "",
+      "pitch": "A somber reflection on the troubles a new baby can bring to a family and how it can affect the whole community."
+    },
+    {
+      "name": "Kick Bot (Classic)",
+      "creator": "Alex Bezuska, Eric Lathrop",
+      "started": null,
+      "complete": true,
+      "price": "Free",
+      "released": "2014",
+      "image": "http://via.placeholder.com/1920X1080",
+      "link": "/kickbotclassic/",
+      "pitch": "This game is all about quick reflexes and fast action. Maneuver through a procedurally-generated terrain of obstacles like spikes and laser beams. One wrong move and you’re a heap of metal. This game will drive you up the wall!"
+    },
+    {
+      "show": true,
+      "name": "Serious Sam Double D XXL",
+      "creator": "Mommy's Best Games",
+      "complete": true,
+      "price": "$9.99",
+      "released": "2011-08-30",
+      "image": "/img/games/Serious Sam Double D XXL.jpg",
+      "link": "http://mommysbestgames.com/serioussamdoubledxxl.html",
+      "pitch": "Once again, Sam 'Serious' Stone must use the Time-Lock to travel through time and destroy the enemies of humanity's past, in order to save its future."
+    },
+    {
+      "complete": true,
+      "name": "Apartment 213",
+      "link": "/apartment213/",
+      "price": "Free",
+      "released": true,
+      "pitch": "A game about the ways several characters see the small apartment that their lives cross in.",
+      "creator": "Alex Bezuska, Eric Lathrop, Mike Revel, Mattie Richards",
+      "image": "http://via.placeholder.com/1920X1080"
+    },
+    {
+      "name": "Scurry",
+      "creator": "Alex Bezuska, Eric Lathrop",
+      "started": null,
+      "complete": true,
+      "price": "Free",
+      "released": true,
+      "image": "http://via.placeholder.com/1920X1080",
+      "link": "",
+      "pitch": "Scurry is a game where you play as a cockroach who is running through a grocery store, avoid obstacles, get sweet power-ups, and try not to fall! Try to get a high score and beat your friends!"
+    },
+    {
+      "show": true,
+      "name": "Kick Bot",
+      "creator": "Two Scoop Games",
+      "started": "2019",
+      "complete": false,
+      "price": null,
+      "released": null,
+      "image": "/img/games/kick-bot.jpg",
+      "link": "https://store.steampowered.com/app/1136290/Kick_Bot/",
+      "pitch": "Kick Bot - the TWO BUTTON platformer where you can’t walk – only wall-jump! Save humanity from a giant robot leg attached to the moon that wants to KICK THE EARTH!"
+    },
+    {
+      "name": "Fortune Dice VR",
+      "creator": "Alex Bezuska, Eric Lathrop, Cara Bezuska",
+      "started": null,
+      "complete": true,
+      "price": "Free",
+      "released": null,
+      "image": "http://via.placeholder.com/1920X1080",
+      "link": "/fortunedicevr/",
+      "pitch": "Roll 6 different dice in VR to see your spooky fortune."
+    },
+    {
+      "name": "Fineage",
+      "creator": "Alex Bezuska, Eric Lathrop, Cara Bezuska",
+      "started": "",
+      "complete": true,
+      "price": "Free",
+      "released": null,
+      "image": "http://via.placeholder.com/1920X1080",
+      "link": "/fineage/",
+      "pitch": "Transmit charcteristics of your fish to your descendants on each playthrough."
+    },
+    {
+      "name": "Duolastic",
+      "creator": "Alex Bezuska, Eric Lathrop",
+      "started": "",
+      "complete": true,
+      "price": "Free",
+      "released": null,
+      "image": "http://via.placeholder.com/1920X1080",
+      "link": "/duolastic/",
+      "pitch": "Online multiplayer game where you can send a link and challenge anyone."
+    },
+    {
+      "name": "Electropolis",
+      "creator": "Alex Bezuska, Lindar K. Greenwood, Eric Lathrop, Cara Bezuska",
+      "started": "",
+      "complete": true,
+      "price": "Free",
+      "released": "",
+      "image": "http://via.placeholder.com/1920X1080",
+      "link": "/electropolis/",
+      "pitch": "Power a city by lightning by matching symbols in the clouds."
     }
   ],
   "resources": {
@@ -99,35 +498,35 @@
       },
       {
         "name": "Krita",
-        "price": "FREE",
+        "price": "Free",
         "opensource": "Yes",
         "description": "Really nice digital painting tool",
         "link": "https://krita.org/en/"
       },
       {
         "name": "Inkscape",
-        "price": "FREE",
+        "price": "Free",
         "opensource": "Yes",
         "description": "Vector art, comparable to Adobe Illustrator, really well made.",
         "link": "https://inkscape.org/"
       },
       {
         "name": "Photo pea",
-        "price": "FREE",
-        "opensource": "not sure",
+        "price": "Free",
+        "opensource": "Not sure",
         "description": "Online Photo Editor lets you edit photos, apply effects, filters, add text, crop or resize pictures in your browser",
         "link": "https://www.photopea.com/"
       },
       {
         "name": "Paint.net",
-        "price": "FREE",
-        "opensource": "not sure",
+        "price": "Free",
+        "opensource": "Not sure",
         "description": "Free image and photo editing software for computers that run Windows.",
         "link": "https://www.getpaint.net/"
       },
       {
         "name": "Piskel",
-        "price": "FREE",
+        "price": "Free",
         "opensource": "Not sure",
         "description": "Online editor for animated sprites & pixel art",
         "link": "https://www.piskelapp.com/"
@@ -135,21 +534,21 @@
       {
         "name": "Spriter",
         "price": "$59.99",
-        "opensource": "no",
+        "opensource": "No",
         "description": "2d game animation tool ",
         "link": "https://brashmonkey.com/"
       },
       {
         "name": "Blender",
-        "price": "FREE",
-        "opensource": "yes",
+        "price": "Free",
+        "opensource": "Yes",
         "description": "Full-featured 3d modeling, rigging, and animating tool",
         "link": "https://www.blender.org/"
       },
       {
         "name": "Spritify for Blender",
-        "price": "FREE",
-        "opensource": "yes",
+        "price": "Free",
+        "opensource": "Yes",
         "description": "Generate sprites for different rotations of 3D models in the same way factorio does for it’s entities",
         "link": "https://github.com/FreezingMoon/Spritify"
       }
@@ -157,15 +556,15 @@
     "gameDesignTools": [
       {
         "name": "Tiled",
-        "price": "FREE",
-        "opensource": "yes",
+        "price": "Free",
+        "opensource": "Yes",
         "description": "Tile map editor",
         "link": "https://www.mapeditor.org/"
       },
       {
         "name": "Yarn Spinner",
-        "price": "FREE",
-        "opensource": "yes",
+        "price": "Free",
+        "opensource": "Yes",
         "description": "Great Unity plugin for adding adialogue system to a Unity game.",
         "link": "https://yarnspinner.dev/"
       }
@@ -173,15 +572,15 @@
     "organizationTools": [
       {
         "name": "Trello",
-        "price": null,
-        "opensource": false,
+        "price": "Free / Paid",
+        "opensource": "No",
         "description": "Boards, lists, and cards",
         "link": "https://trello.com/"
       },
       {
         "name": "ClickUp",
-        "price": null,
-        "opensource": false,
+        "price": "Paid",
+        "opensource": "No",
         "description": "Plan, track, and manage any type of work with project management that flexes to your team's needs",
         "link": "https://clickup.com/"
       }
@@ -189,15 +588,15 @@
     "communicationTools": [
       {
         "name": "Jitsi",
-        "price": null,
-        "opensource": true,
+        "price": "Free",
+        "opensource": "Yes",
         "description": "Free video conferencing and messaging site",
         "link": "https://jitsi.org/"
       },
       {
         "name": "tlk.io",
-        "price": null,
-        "opensource": false,
+        "price": "Free",
+        "opensource": "No",
         "description": "Free chat room site.",
         "link": "https://tlk.io/"
       }
@@ -205,8 +604,8 @@
     "marketingTools": [
       {
         "name": "Vlambeer Toolkit & Link Repo",
-        "price": null,
-        "opensource": false,
+        "price": "Free",
+        "opensource": "Yes",
         "description": "A collection of links and tools for game developers by Vlambeer, an independent game studio.",
         "link": "http://vlambeer.com/toolkit/"
       }
@@ -214,8 +613,8 @@
     "codeTools": [
       {
         "name": "JSON Pretty Print",
-        "price": null,
-        "opensource": false,
+        "price": "Free",
+        "opensource": "Not sure",
         "description": "Browser based JSON formatting tool.",
         "link": "https://jsonformatter.org/json-pretty-print"
       }
@@ -223,22 +622,22 @@
     "captureTools": [
       {
         "name": "GIPHY Capture",
-        "price": "FREE",
-        "opensource": "no",
+        "price": "Free",
+        "opensource": "No",
         "description": "(Mac) Record gifs of your game with an integrated editor",
         "link": "https://giphy.com/apps/giphycapture"
       },
       {
         "name": "Screen 2 Gif",
-        "price": "FREE",
-        "opensource": "yes",
+        "price": "Free",
+        "opensource": "Yes",
         "description": "(Windows) Record gifs of your game with an integrated editor",
         "link": "https://www.screentogif.com/"
       },
       {
         "name": "OBS",
-        "price": "FREE",
-        "opensource": "yes",
+        "price": "Free",
+        "opensource": "Yes",
         "description": "Video recording and live streaming",
         "link": "https://obsproject.com/"
       }
@@ -247,28 +646,28 @@
       {
         "name": "Ableton",
         "price": "$99",
-        "opensource": "no",
+        "opensource": "No",
         "description": "professional music creation software",
         "link": "https://www.ableton.com/en/"
       },
       {
         "name": "jSfxr",
-        "price": "FREE",
-        "opensource": "yes",
+        "price": "Free",
+        "opensource": "Yes",
         "description": "Browser baesed 8-bit sound generator",
         "link": "https://sfxr.me/"
       },
       {
         "name": "Tenacity",
-        "price": "FREE",
-        "opensource": "yes",
+        "price": "Free",
+        "opensource": "Yes",
         "description": "(formerly Audacity) free and open source music/sound effect recording and editing software",
         "link": "https://tenacityaudio.org/"
       },
       {
         "name": "LMMS",
-        "price": "FREE",
-        "opensource": "yes",
+        "price": "Free",
+        "opensource": "Yes",
         "description": "free and open source music creation tool",
         "link": "https://lmms.io/"
       }
@@ -310,7 +709,7 @@
         "lang": "C#",
         "2d3d": "2D & 3D",
         "cost": "Free (if game earns < $100k/year)",
-        "opensource": "no",
+        "opensource": "No",
         "whoitsfor": "If you want to make a multiplatform game in 2d or 3d",
         "link": "https://unity.com/"
       },
@@ -321,7 +720,7 @@
         "lang": "C++, C#, or Visual programming",
         "2d3d": "2D & 3D",
         "cost": "Free",
-        "opensource": "yes",
+        "opensource": "Yes",
         "whoitsfor": "In active developement, promising new engine reaching it’s stride",
         "link": "https://godotengine.org/"
       },
@@ -332,7 +731,7 @@
         "lang": "Writing and drag & drop",
         "2d3d": "2D",
         "cost": "Free",
-        "opensource": "yes",
+        "opensource": "Yes",
         "whoitsfor": "If you want to create interactive fiction, text adventures etc. Very low barrier to entry",
         "link": "https://twinery.org/"
       },
@@ -343,7 +742,7 @@
         "lang": "Java",
         "2d3d": "2D",
         "cost": "Free",
-        "opensource": "yes",
+        "opensource": "Yes",
         "whoitsfor": "If you have a background and Java and love your beans.",
         "link": "https://libgdx.com/"
       },
@@ -354,7 +753,7 @@
         "lang": "Lua",
         "2d3d": "2D & 3D",
         "cost": "Free",
-        "opensource": "yes",
+        "opensource": "Yes",
         "whoitsfor": "If you want the control of an unoppinionated code-only engine without a UI",
         "link": "https://love2d.org/"
       }

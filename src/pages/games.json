@@ -1,0 +1,397 @@
+[{
+    "show": true,
+    "name": "Kick Bot",
+    "creator": "Two Scoop Games",
+    "started": "2019",
+    "complete": false,
+    "price": null,
+    "released": null,
+    "image": "/img/games/kick-bot.jpg",
+    "link": "https://store.steampowered.com/app/1136290/Kick_Bot/",
+    "pitch": "Kick Bot - the TWO BUTTON platformer where you can’t walk – only wall-jump! Save humanity from a giant robot leg attached to the moon that wants to KICK THE EARTH!"
+},
+{
+    "show": true,
+    "name": "Little Ninja",
+    "creator": "Adam Stankiewicz",
+    "started": "2022",
+    "complete": true,
+    "price": "$0.99",
+    "released": "2022-04-15",
+    "image": "/img/games/little-ninja.jpg",
+    "link": "https://store.steampowered.com/app/1923730/Little_Ninja/",
+    "pitch": "You are a young 8 year old boy named Liam, you recently got a ninja mask for a birthday present! You must protect the house from evil doers! You must be sneaky, and make sure to not get caught!"
+},
+{
+    "complete": true,
+    "name": "Apartment 213",
+    "link": "/apartment213/",
+    "price": "Free",
+    "released": true,
+    "pitch": "A game about the ways several characters see the small apartment that their lives cross in.",
+    "creator": "Alex Bezuska, Eric Lathrop, Mike Revel, Mattie Richards",
+    "image": "http://via.placeholder.com/1920X1080"
+
+},
+{
+    "complete": true,
+    "name": "Moving In",
+    "pitch": "A cooperative card game about relationships, furniture shopping, and compromise",
+    "jam": "Global Game jam 2019",
+
+    "released": "2019-01-27",
+    "link": "https://globalgamejam.org/2019/games/moving-1",
+    "creator": "Alex Bezuska, Eric Lathrop, Barry Rowe",
+    "image": "http://via.placeholder.com/1920X1080"
+},
+{
+    "name": "PullPals",
+    "started": "2017",
+    "complete": true,
+    "price": "Free",
+    "released": "2017",
+    "image": "http://via.placeholder.com/1920X1080",
+    "link": "",
+    "pitch": "Pull, move, and fling cute stretchy monster babies to solve puzzles!",
+    "creator": "Alex Bezuska, Eric Lathrop, Jake Mercer"
+},
+{
+    "name": "SyRUSH",
+    "started": "2013",
+    "complete": true,
+    "price": "Free",
+    "released": "2014-03-24",
+    "image": "http://via.placeholder.com/1920X1080",
+    "link": "",
+    "pitch": "Feel the rush in this fast-paced arcade style game where you tap waffle squares to fill your waffle with the perfect distribution of mouth-watering toppings.",
+    "creator": "Alex Bezuska, Eric Lathrop"
+},
+{
+    "name": "Scurry",
+    "creator": "Alex Bezuska, Eric Lathrop",
+    "started": null,
+    "complete": true,
+    "price": "Free",
+    "released": true,
+    "image": "http://via.placeholder.com/1920X1080",
+    "link": "",
+    "pitch": "Scurry is a game where you play as a cockroach who is running through a grocery store, avoid obstacles, get sweet power-ups, and try not to fall! Try to get a high score and beat your friends!"
+},
+{
+    "name": "Mr. Fluffykins' Great Sorting Adventure",
+    "creator": "Alex Bezuska, Nathan Hutchens, Eric Lathrop, Rex Soriano, Anthony Quisenberry, Aaron Smith",
+    "started": "2014",
+    "complete": true,
+    "price": "Free",
+    "released": "2014-04-25",
+    "image": "http://via.placeholder.com/1920X1080",
+    "link": "",
+    "pitch": "​Take a peek inside your home internet router to see how all those crazy cat pictures actually get to your computer."
+},
+{
+    "name": "Desserts Killed Your Daddy",
+    "creator": "Alex Bezuska, Eric Lathrop",
+    "started": "2014",
+    "complete": true,
+    "price": "Free",
+    "released": "2014-12-05",
+    "image": "http://via.placeholder.com/1920X1080",
+    "link": "",
+    "pitch": "Can you get to 50 points and defeat the GINGERBOSS?"
+},
+{
+    "name": "The Day the World Changed",
+    "creator": "Alex Bezuska, Eric Lathrop",
+    "started": "",
+    "complete": true,
+    "price": "Free",
+    "released": "2014",
+    "image": "http://via.placeholder.com/1920X1080",
+    "link": "",
+    "pitch": "A somber reflection on the troubles a new baby can bring to a family and how it can affect the whole community."
+},
+{
+    "name": "Uprooted",
+    "creator": "Alex Bezuska, Eric Lathrop",
+    "started": "2015",
+    "complete": true,
+    "price": "Free",
+    "released": "2015",
+    "image": "http://via.placeholder.com/1920X1080",
+    "link": "/uprooted/",
+    "pitch": "Help a lost carrot get back to the carrot patch, but watch out for evil rabbits!"
+},
+{
+    "name": "Stanley Squeaks and the Emerald Burrito",
+    "creator": "Alex Bezuska, Eric Lathrop, Wai Ying Lam",
+    "started": "August 22nd, 2014",
+    "complete": true,
+    "price": "Free",
+    "released": "2014-08-22",
+    "image": "http://via.placeholder.com/1920X1080",
+    "link": "/stanleysqueaks/",
+    "pitch": "Help Stanley solve puzzles and avoid traps in an ancient temple while on a quest to obtain the elusive emerald burrito."
+},
+{
+    "name": "Treatment and Control",
+    "creator": "Alex Bezuska, Chris Kincaid, Eric Lathrop",
+    "started": "2015",
+    "complete": true,
+    "price": "Free",
+    "released": "2015-08-21",
+    "image": "http://via.placeholder.com/1920X1080",
+    "link": "/treatmentandcontrol/",
+    "pitch": "Congratulations on your new job, citizen! You must report for duty on Monday to office #74 to distribute vital medication to our workforce."
+},
+{
+    "name": "Cluster Junk",
+    "creator": "Eric Lathrop, Alex Bezuska, Cara Smith, Ben Wiley",
+    "started": "2015",
+    "complete": true,
+    "price": "Free",
+    "released": "2015-12-11",
+    "image": "http://via.placeholder.com/1920X1080",
+    "link": "/clusterjunk/",
+    "pitch": "There are millions of tons of trash floating in the oceans. So what goes on while no one is looking in these trash piles?"
+},
+{
+    "name": "Kick Bot (Classic)",
+    "creator": "Alex Bezuska, Eric Lathrop",
+    "started": null,
+    "complete": true,
+    "price": "Free",
+    "released": "2014",
+    "image": "http://via.placeholder.com/1920X1080",
+    "link": "/kickbotclassic/",
+    "pitch": "This game is all about quick reflexes and fast action. Maneuver through a procedurally-generated terrain of obstacles like spikes and laser beams. One wrong move and you’re a heap of metal. This game will drive you up the wall!"
+},
+{
+    "name": "Fortune Dice VR",
+    "creator": "Alex Bezuska, Eric Lathrop, Cara Bezuska",
+    "started": null,
+    "complete": true,
+    "price": "Free",
+    "released": null,
+    "image": "http://via.placeholder.com/1920X1080",
+    "link": "/fortunedicevr/",
+    "pitch": "Roll 6 different dice in VR to see your spooky fortune."
+},
+{
+    "name": "Fineage",
+    "creator": "Alex Bezuska, Eric Lathrop, Cara Bezuska",
+    "started": "",
+    "complete": true,
+    "price": "Free",
+    "released": null,
+    "image": "http://via.placeholder.com/1920X1080",
+    "link": "/fineage/",
+    "pitch": "Transmit charcteristics of your fish to your descendants on each playthrough."
+},
+{
+    "name": "Duolastic",
+    "creator": "Alex Bezuska, Eric Lathrop",
+    "started": "",
+    "complete": true,
+    "price": "Free",
+    "released": null,
+    "image": "http://via.placeholder.com/1920X1080",
+    "link": "/duolastic/",
+    "pitch": "Online multiplayer game where you can send a link and challenge anyone."
+},
+{
+
+    "name": "Electropolis",
+    "creator": "Alex Bezuska, Lindar K. Greenwood, Eric Lathrop, Cara Bezuska",
+    "started": "",
+    "complete": true,
+    "price": "Free",
+    "released": "",
+    "image": "http://via.placeholder.com/1920X1080",
+    "link": "/electropolis/",
+    "pitch": "Power a city by lightning by matching symbols in the clouds."
+},
+{
+    "show": true,
+    "name": "monad",
+    "creator": "Glenn Essex",
+    "started": "2018",
+    "complete": true,
+    "price": "Free",
+    "released": "2018-08-19",
+    "image": "/img/games/monad - Glenn Essex.png",
+    "link": "https://shinyogre.itch.io/monad",
+    "pitch": "A meditative experience meant for solitary contemplation in a dark, quiet room with surround sound or headphones."
+},
+{
+    "show": true,
+    "name": "The Hunger: Games Ensemble",
+    "price": "$3.99",
+    "image": "/img/the-hunger-games-ensamble.jpg",
+    "released": "2020-11-03",
+    "creator": "Spacetronaut",
+    "complete": true,
+    "pitch": "A Collection Of Hilarious VR Games!",
+    "link": "https://store.steampowered.com/app/1097820/The_Hunger_Games_Ensemble/"
+},
+{
+    "show": true,
+    "name": "Curse of Eternity",
+    "creator": "Imakeda Games",
+    "started": "",
+    "complete": true,
+    "price": "$19.99",
+    "released": "2022-12-01",
+    "image": "/img/curse-of-eternity.jpg",
+    "link": "https://store.steampowered.com/app/1230000/Curse_of_Eternity/",
+    "pitch": "A hardcore Action RPG with diverse combat and feats-based multiclassing. Start as one of three hero builds and either continue to specialize, or branch out and make your build your own. Slice, shoot, and zap your way through a dystopian world and fulfill your own deific journey."
+},
+{
+    "show": true,
+    "name": "Jeebo & Jerbo vs. Life",
+    "creator": "StegTech",
+    "started": "2018",
+    "complete": true,
+    "price": "$19.99",
+    "released": "2021-10-01",
+    "image": "/img/games/jeebo-and-jerbo-vs-life.jpg",
+    "link": "https://store.steampowered.com/app/1751110/Jeebo__Jerbo_vs_Life/",
+    "pitch": "A 2D Metroidvania crossed with an old school JRPG. Collect new party members for use in turn based battles and for additional overworld movement abilities to access new areas of the map! Take on an oppressive society with this bizarre satirical adventure!"
+},
+
+{
+    "show": true,
+    "name": "The Boneyard",
+    "creator": "Jonah Segree - galactical",
+    "started": "2022",
+    "complete": true,
+    "price": "$3.00",
+    "released": "2022/10/28",
+    "image": "/img/games/the-boneyard.png",
+    "link": "https://galactical.itch.io/the-boneyard",
+    "pitch": "A Halloween themed domino deck-builder roguelike. Connect dominoes on the board to attack skeletons, and possess your dominoes with ghostly spirits that provide unique strategic abilities. There are over a dozen unique upgrades, with various synergies waiting to be found."
+},
+{
+    "show": true,
+    "complete": true,
+    "image": "/img/games/housekeeping-vr.jpg",
+    "link": "https://store.steampowered.com/app/556520/Housekeeping_VR/",
+    "name": "Housekeeping VR",
+    "pitch": "Housekeeping VR is a physics-based action game with a 70s futurist style for the Vive and Rift. It's a race against the clock as you completely destroy luxurious apartments in an attempt to make as much money as you can, and buy the biggest arsenal of tools to do the job!",
+    "released": "2017-02-21",
+    "creator": "Peach Pie Productions",
+    "price": "$4.99"
+},
+{
+    "show": true,
+    "name": "Zombie Party",
+    "creator": "Peach Pie Productions",
+    "started": null,
+    "complete": true,
+    "price": "$9.99",
+    "released": "2016-06-10",
+    "image": "/img/games/zombie-party.jpg",
+    "link": "https://store.steampowered.com/app/384500/Zombie_Party/",
+    "pitch": "Zombie Party is a retro rampage of fun and over-the-top action, while still giving the players a deep and engaging Action-RPG Rogue-like experience! Go on a time traveling adventure, or delve deep into procedural dungeons full of gold, loot, and secrets!"
+},
+{"show": true,
+    "name": "Pig Eat Ball",
+    "creator": "Mommy's Best Games",
+    "complete": true,
+    "price": "$14.99",
+    "released": "2018-09-27",
+    "image": "/img/games/pig-eat-ball.jpg",
+    "link": "http://mommysbestgames.com/pigeatball.html",
+    "pitch": "Pig Eat Ball is a top-down, action-adventure about eating, getting fat, and barfing on things to solve levels. Explore 20 giant space stations to find different Disguises, and using their Pros and Cons, fight and solve your way through over 200 action-puzzle levels using new, arcade-style mechanics."
+  },
+  {"show": true,
+    "name": "Serious Sam Double D XXL",
+    "creator": "Mommy's Best Games",
+    "complete": true,
+    "price": "$9.99",
+    "released": "2011-08-30",
+    "image": "/img/games/Serious Sam Double D XXL.jpg",
+    "link": "http://mommysbestgames.com/serioussamdoubledxxl.html",
+    "pitch":"Once again, Sam 'Serious' Stone must use the Time-Lock to travel through time and destroy the enemies of humanity's past, in order to save its future."
+  },
+  {"show": true,
+    "name": "Game Type",
+    "creator": "Mommy's Best Games",
+    "complete": true,
+    "price": "$2.99",
+    "released": "2015-09-23",
+    "image": "/img/games/game-type.jpg",
+    "link": "http://mommysbestgames.com/GameTypeDX/index.html",
+    "pitch": "Help Hoodie Girl fight the evil MediaBall's inane advertisements! It's a looping shooter in which each loop increases the speed and difficulty!"
+  },
+  {"show": true,
+    "name": "Explosionade",
+    "creator": "Mommy's Best Games",
+    "released": true,
+    "price": "$3.99",
+    "released": "2015-09-23",
+    "image": "/img/games/explosionade.jpg",
+    "link": "http://mommysbestgames.com/explosionade.html",
+    "pitch": "Pilot an experimental mech and shoot giant grenades to blow up sneaky aliens. Stomp their guts, destroy their base, and save the day!"
+  },
+  {"show": true,
+    "name": "Weapon of Choice",
+    "creator": "Mommy's Best Games",
+    "completed": true,
+    "price": "$4.99",
+    "released": "2015-09-23",
+    "image": "/img/games/weapon-of-choice.jpg",
+    "link": "http://mommysbestgames.com/weaponofchoice.html",
+    "pitch": "Weapon of Choice is a high-energy, side-scroller in which each playable character is unique with their own special weapon and abilities! Blast insane aliens, find new player characters, and choose between branching paths!"
+  },
+  {"show": true,
+    "name": "Finger Derpy",
+    "creator": "Mommy's Best Games",
+    "complete": true,
+    "price": "Free",
+    "released": "2015-04-19",
+    "image": "/img/games/finger-derpy.jpg",
+    "link": "http://mommysbestgames.com/fingerderpy.html",
+    "pitch": "Run like never before! Race derpy horses with wacky physics to beat the finish line!"
+  },
+  {"show": true,
+    "name": "Shoot 1UP DX",
+    "creator": "Mommy's Best Games",
+    "complete": true,
+    "price": "$5.99",
+
+    "released": "2020-10-15",
+    "image": "/img/games/shoot-1up.jpg",
+    "link": "http://mommysbestgames.com/shoot1up.html",
+    "pitch": "Why play shoot 'em ups one ship at a time? Launch them all at once! Unleash an entire armada of ships in Shoot 1UP!"
+  },{
+    "show": true,
+    "name": "Emoji Scream",
+    "creator": "Mommy's Best Games",
+ 
+    "complete": true,
+    "price": "$1.99",
+    "released": "2016-12-14",
+    "image": "/img/games/emoji-scream.png",
+    "link": "http://mommysbestgames.com/emojiscream.html",
+    "pitch": "Smiley's had enough. He's mad.So mad he could SCREAM."
+  },
+
+  {
+    "show": true,
+    "complete": true,
+    "name": "Plague Doctor: Contagion 430 BCE–2020 AD",
+    "released": "2021-10-15",
+    "creator": "Actors Theatre of Louisville, Two Scoop Games",
+    "image": "/img/games/plague-doctor.jpg",
+    "link": "https://store.steampowered.com/app/1450640/Plague_Doctor_Contagion_430_BCE2020_AD",
+    "pitch": "Athens, 430 BCE. Marseille, 1720. Philadelphia, 1918. Louisville, 2020. Explore four cities—each battling a deadly epidemic—and make choices that will save or cost the lives of countless people. A first-person narrative adventure about greed, compassion, and courage in times of crisis."
+  }
+  
+  
+
+
+
+
+
+
+]

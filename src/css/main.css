@@ -45,14 +45,11 @@ h1 {
   color: #1e1e1e;
   padding: 20px 15px;
   transform: rotate(-2deg);
-  transition: transform 1s ease-in-out;
+  
   margin-bottom: 1.5rem !important;
   width: fit-content;
 }
 
-h1:hover {
-  transform: rotate(2deg);
-}
 
 h1 i {
   margin-right: 10px;
@@ -122,6 +119,26 @@ h2 i {
 
 }
 
+
+.image-container.red::after {
+ 
+  background-color: #EA3657;
+
+
+}
+.image-container.blue::after {
+ 
+  background-color: #6ACAD0;
+
+
+}
+.image-container.yellow::after {
+  
+  background-color: #EDDE44;
+
+
+}
+
 .image-container:hover {
   transform: rotate(3deg);
 }
@@ -165,3 +182,52 @@ h2 i {
   margin: 150px 40px;
 }
 
+.image-caption-strong, .image-caption{
+  text-align: right;
+  margin-bottom: 0px;
+}
+
+.author-date{
+  font-style: italic;
+  font-size: 14px;
+}
+
+.btn {
+  transition: transform 0.3s;
+}
+
+.btn:hover {
+  transform: rotate3d(1, 1, 0, 10deg);
+}
+
+.game-card{
+  margin: 10px;
+
+}
+
+.card-img-container{
+  text-align: center;
+//background: black;
+max-height: 185px;
+}
+
+.card-img-top{
+  margin: 0 auto !important;
+  width: auto !important;
+  max-height: 185px;
+  max-width: 100%;
+}
+
+.game-card a img{
+  border: 2px solid transparent;
+
+}
+.game-card a img:hover{
+  border: 2px solid white;
+
+}
+
+
+.card-text{
+  margin: 0;
+}

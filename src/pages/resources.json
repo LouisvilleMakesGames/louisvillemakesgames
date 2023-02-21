@@ -9,35 +9,35 @@
 	  },
 	  {
 		"name": "Krita",
-		"price": "FREE",
+		"price": "Free",
 		"opensource": "Yes",
 		"description": "Really nice digital painting tool",
 		"link": "https://krita.org/en/"
 	  },
 	  {
 		"name": "Inkscape",
-		"price": "FREE",
+		"price": "Free",
 		"opensource": "Yes",
 		"description": "Vector art, comparable to Adobe Illustrator, really well made.",
 		"link": "https://inkscape.org/"
 	  },
 	  {
 		"name": "Photo pea",
-		"price": "FREE",
-		"opensource": "not sure",
+		"price": "Free",
+		"opensource": "Not sure",
 		"description": "Online Photo Editor lets you edit photos, apply effects, filters, add text, crop or resize pictures in your browser",
 		"link": "https://www.photopea.com/"
 	  },
 	  {
 		"name": "Paint.net",
-		"price": "FREE",
-		"opensource": "not sure",
+		"price": "Free",
+		"opensource": "Not sure",
 		"description": "Free image and photo editing software for computers that run Windows.",
 		"link": "https://www.getpaint.net/"
 	  },
 	  {
 		"name": "Piskel",
-		"price": "FREE",
+		"price": "Free",
 		"opensource": "Not sure",
 		"description": "Online editor for animated sprites & pixel art",
 		"link": "https://www.piskelapp.com/"
@@ -45,21 +45,21 @@
 	  {
 		"name": "Spriter",
 		"price": "$59.99",
-		"opensource": "no",
+		"opensource": "No",
 		"description": "2d game animation tool ",
 		"link": "https://brashmonkey.com/"
 	  },
 	  {
 		"name": "Blender",
-		"price": "FREE",
-		"opensource": "yes",
+		"price": "Free",
+		"opensource": "Yes",
 		"description": "Full-featured 3d modeling, rigging, and animating tool",
 		"link": "https://www.blender.org/"
 	  },
 	  {
 		"name": "Spritify for Blender",
-		"price": "FREE",
-		"opensource": "yes",
+		"price": "Free",
+		"opensource": "Yes",
 		"description": "Generate sprites for different rotations of 3D models in the same way factorio does for it’s entities",
 		"link": "https://github.com/FreezingMoon/Spritify"
 	  }
@@ -67,15 +67,15 @@
 	"gameDesignTools": [
 	  {
 		"name": "Tiled",
-		"price": "FREE",
-		"opensource": "yes",
+		"price": "Free",
+		"opensource": "Yes",
 		"description": "Tile map editor",
 		"link": "https://www.mapeditor.org/"
 	  },
 	  {
 		"name": "Yarn Spinner",
-		"price": "FREE",
-		"opensource": "yes",
+		"price": "Free",
+		"opensource": "Yes",
 		"description": "Great Unity plugin for adding adialogue system to a Unity game.",
 		"link": "https://yarnspinner.dev/"
 	  }
@@ -83,15 +83,15 @@
 	"organizationTools": [
 	  {
 		"name": "Trello",
-		"price": null,
-		"opensource": false,
+		"price": "Free / Paid",
+		"opensource": "No",
 		"description": "Boards, lists, and cards",
 		"link": "https://trello.com/"
 	  },
 	  {
 		"name": "ClickUp",
-		"price": null,
-		"opensource": false,
+		"price": "Paid",
+		"opensource": "No",
 		"description": "Plan, track, and manage any type of work with project management that flexes to your team's needs",
 		"link": "https://clickup.com/"
 	  }
@@ -99,15 +99,15 @@
 	"communicationTools": [
 	  {
 		"name": "Jitsi",
-		"price": null,
-		"opensource": true,
+		"price": "Free",
+		"opensource": "Yes",
 		"description": "Free video conferencing and messaging site",
 		"link": "https://jitsi.org/"
 	  },
 	  {
 		"name": "tlk.io",
-		"price": null,
-		"opensource": false,
+		"price": "Free",
+		"opensource": "No",
 		"description": "Free chat room site.",
 		"link": "https://tlk.io/"
 	  }
@@ -115,8 +115,8 @@
 	"marketingTools": [
 	  {
 		"name": "Vlambeer Toolkit & Link Repo",
-		"price": null,
-		"opensource": false,
+		"price": "Free",
+		"opensource": "Yes",
 		"description": "A collection of links and tools for game developers by Vlambeer, an independent game studio.",
 		"link": "http://vlambeer.com/toolkit/"
 	  }
@@ -124,8 +124,8 @@
 	"codeTools": [
 	  {
 		"name": "JSON Pretty Print",
-		"price": null,
-		"opensource": false,
+		"price": "Free",
+		"opensource": "Not sure",
 		"description": "Browser based JSON formatting tool.",
 		"link": "https://jsonformatter.org/json-pretty-print"
 	  }
@@ -133,22 +133,22 @@
 	"captureTools": [
 	  {
 		"name": "GIPHY Capture",
-		"price": "FREE",
-		"opensource": "no",
+		"price": "Free",
+		"opensource": "No",
 		"description": "(Mac) Record gifs of your game with an integrated editor",
 		"link": "https://giphy.com/apps/giphycapture"
 	  },
 	  {
 		"name": "Screen 2 Gif",
-		"price": "FREE",
-		"opensource": "yes",
+		"price": "Free",
+		"opensource": "Yes",
 		"description": "(Windows) Record gifs of your game with an integrated editor",
 		"link": "https://www.screentogif.com/"
 	  },
 	  {
 		"name": "OBS",
-		"price": "FREE",
-		"opensource": "yes",
+		"price": "Free",
+		"opensource": "Yes",
 		"description": "Video recording and live streaming",
 		"link": "https://obsproject.com/"
 	  }
@@ -157,28 +157,28 @@
 	  {
 		"name": "Ableton",
 		"price": "$99",
-		"opensource": "no",
+		"opensource": "No",
 		"description": "professional music creation software",
 		"link": "https://www.ableton.com/en/"
 	  },
 	  {
 		"name": "jSfxr",
-		"price": "FREE",
-		"opensource": "yes",
+		"price": "Free",
+		"opensource": "Yes",
 		"description": "Browser baesed 8-bit sound generator",
 		"link": "https://sfxr.me/"
 	  },
 	  {
 		"name": "Tenacity",
-		"price": "FREE",
-		"opensource": "yes",
+		"price": "Free",
+		"opensource": "Yes",
 		"description": "(formerly Audacity) free and open source music/sound effect recording and editing software",
 		"link": "https://tenacityaudio.org/"
 	  },
 	  {
 		"name": "LMMS",
-		"price": "FREE",
-		"opensource": "yes",
+		"price": "Free",
+		"opensource": "Yes",
 		"description": "free and open source music creation tool",
 		"link": "https://lmms.io/"
 	  }
@@ -220,7 +220,7 @@
 		"lang": "C#",
 		"2d3d": "2D & 3D",
 		"cost": "Free (if game earns < $100k/year)",
-		"opensource": "no",
+		"opensource": "No",
 		"whoitsfor": "If you want to make a multiplatform game in 2d or 3d",
 		"link": "https://unity.com/"
 	  },
@@ -231,7 +231,7 @@
 		"lang": "C++, C#, or Visual programming",
 		"2d3d": "2D & 3D",
 		"cost": "Free",
-		"opensource": "yes",
+		"opensource": "Yes",
 		"whoitsfor": "In active developement, promising new engine reaching it’s stride",
 		"link": "https://godotengine.org/"
 	  },
@@ -242,7 +242,7 @@
 		"lang": "Writing and drag & drop",
 		"2d3d": "2D",
 		"cost": "Free",
-		"opensource": "yes",
+		"opensource": "Yes",
 		"whoitsfor": "If you want to create interactive fiction, text adventures etc. Very low barrier to entry",
 		"link": "https://twinery.org/"
 	  },
@@ -253,7 +253,7 @@
 		"lang": "Java",
 		"2d3d": "2D",
 		"cost": "Free",
-		"opensource": "yes",
+		"opensource": "Yes",
 		"whoitsfor": "If you have a background and Java and love your beans.",
 		"link": "https://libgdx.com/"
 	  },
@@ -264,7 +264,7 @@
 		"lang": "Lua",
 		"2d3d": "2D & 3D",
 		"cost": "Free",
-		"opensource": "yes",
+		"opensource": "Yes",
 		"whoitsfor": "If you want the control of an unoppinionated code-only engine without a UI",
 		"link": "https://love2d.org/"
 	  }
