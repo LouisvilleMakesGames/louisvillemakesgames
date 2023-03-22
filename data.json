@@ -21,6 +21,11 @@
         "showInNav": true
       },
       {
+        "name": "Warpzone",
+        "file": "warpzone.html",
+        "showInNav": true
+      },
+      {
         "name": "Resources",
         "file": "resources.html",
         "showInNav": true
