@@ -231,3 +231,8 @@ max-height: 185px;
 .card-text{
   margin: 0;
 }
+
+.card-price {
+  position: absolute;
+  right: 0px;
+}

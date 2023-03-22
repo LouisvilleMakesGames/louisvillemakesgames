@@ -7,7 +7,7 @@ Louisville Makes Games!
 
 [Join the Kentucky Game Developer Discord Server](https://discord.gg/gZwbF94UJK)
 
-[Attend a virtual meetup](https://www.meetup.com/LouisvilleMakesGames)
+[Attend a meetup](https://www.meetup.com/LouisvilleMakesGames)
 
 
 ### Louisville Makes Games Community

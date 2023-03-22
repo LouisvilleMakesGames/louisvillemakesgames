@@ -44,7 +44,11 @@ function addPageData(data) {
   return newData;
 }
 
+data["games"].sort(function(a, b) {
+  return new Date(b.released) - new Date(a.released);
+});
 fs.writeFileSync("./data.json", JSON.stringify(data, null, 2));
+
 
 data.site.pages.forEach((page) => {
   var pageName = page.file.replace(".html", "").toLowerCase();
