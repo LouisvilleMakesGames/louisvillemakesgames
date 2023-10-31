@@ -1,10 +1,34 @@
 [
+
+  {
+      "title": "Into the World of Video Game Creation: My Presentation at the Bon Air Library",
+      "blogID": "bon-air-talk",
+      "author": "Alex Bezuska",
+      "date": "2023-05-22",
+      "featured": true,
+      "blurb":   "On May 21st, I had the awesome opportunity to present at the Bon Air Library in Louisville, Kentucky representing Louisville Makes Games. The topic was one that I am truly passionate about: how to get started making video games. The audience consisted mainly of enthusiastic teens, accompanied by some equally curious parents. Together, we had an open discussion about how video games are made.",
+      "contentParagraphs": [
+"I kicked off the session by asking everyone to share their favorite video games and asked if they knew who created those games, many mentioned the names of game companies or publishers but I dug deeper to try to get folks to consider the individual people who create games either on small 1-2 person indie teams, or on large 3000 person teams like for Red Dead Redemption 2.",
+"To demystify the process of making video games, I highlighted the various disciplines involved, extending beyond programming to encompass art, music, storytelling, sound design, and much more. The goal was to showcase the collaborative nature of game development and to inspire participants to explore the diverse array of skills required to bring their own game ideas to life.",
+"Next we talked about tools such as game engines, and explained that each game engine is a tool box for making games and each includes a different number of tools, some smaller ones might be quicker to learn and get started while others might have a larger set of tools and be more capable once you take the time to learn a bunch of them.",
+"I talked about how a major factor in making games is time, and putting in the effort to learn and teach yourself rather than try to use shortcuts. I mentioned the popular topic of AI like ChatGPT and how it can be a useful tool, but if you ask it to create code for your game without having at least a basic understanding of programming you will have a difficult time solving issues when AI gets things wrong. Like any tool, it can be useful to help but it is not a “do-it-all” solution.",
+"The presentation at the Bon Air Library marked the first in our series of meetups organized as a partnership with Louisville Makes Games and the Louisville Free Public Library. The warm reception from the audience made it evident that this initiative would foster a vibrant community of aspiring game developers in Louisville. I am grateful to have played a part in sparking curiosity and igniting a passion for game creation among the attendees.",
+"If you're interested in joining us for these gatherings and staying updated on all our free public events, be sure to join our group on meetup.com/louisvillemakesgames for email updates!"
+
+      ],
+      "cta": "View the full presentation slides here",
+      "ctaLink": "https://docs.google.com/presentation/d/10jE5Bs7kQ80-MGy0YTqB0VsHvh82gQe3GIQ5K-BwG7g/edit?usp=sharing",
+      "image": "/img/bon-air-library.png",
+      "imageCaptionStrong": "Alex Bezuska giving a presentaion at Bon Air Library",
+      "imageCaptionSub": "Louisville, Kentucky"
+    },
+
     {
         "title": "Locally Made Games at Louisville Arcade Expo!",
         "blogID": "lax-lmg-2023-announcement",
         "author": "Alex Bezuska",
         "date": "2023-02-20",
-        "featured": true,
+
         "blurb": "The Louisville Arcade Expo (LAX) is just around the corner, and we at Louisville Makes Games couldn't be more excited to be a part of it! This year's event is taking place from Friday, March 10 to Sunday, March 12, 2023, and it promises to be a fantastic showcase of retro gaming and local game development talent.",
         "contentParagraphs": [
           "One of the main draws of the Louisville Arcade Expo is the chance to play retro arcade, console, and computer games. Whether you're a die-hard fan of classic games like Pac-Man and Space Invaders, or you're more interested in retro PC games like Doom and Quake played on a LAN, there's something for everyone at this event.",
@@ -18,7 +42,7 @@
         "imageCaptionStrong": "Locally-made indie games",
         "imageCaptionSub": "available for all ages to try out at LAX"
       },
-      
+
       {
         "title": "Why Licenses Matter",
         "author": "Alex Bezuska",
@@ -26,13 +50,13 @@
         "contentParagraphs": [
             "When creating a game project, it can be tempting to use assets found online as a shortcut to creating original content. However, it is important to pay attention to the license associated with each asset to ensure that it can be used appropriately.",
             "Understanding Creative Commons Zero and Other Licenses",
-            
+
             "Creative Commons Zero (CC0) is a public domain license that allows for free use of an asset without attribution. However, most other licenses do require some form of attribution, which means giving credit to the original artist for their work. The MIT license is one example of a license that requires attribution. Game developers should also be wary of \"viral\" licenses like the GPL v3, which requires that any derivative works also be released under the GPL v3 license.",
             "Giving Credit to Artists",
-            
+
             "When using other people's work in game projects, it's important to make sure that the artist receives proper credit. This can be done through including the artist's name in the game credits or on the game's page on a jam site, for example. Some licenses may also require a link back to the originaly work or the creator's website.",
             "TL;DR:",
-            
+
             "Use Creative Commons or MIT licensed assets, be wary of GPL, and credit the artist."
         ],
         "ctaLink": "",
@@ -40,7 +64,7 @@
         "imageCaptionStrong": "Jason Thompson, Local Louisville composer",
         "imageCaptionSub": "Photo by David R. Lutman, Courier Journal, Aug 4 2019"
       }
-      
-      
-      
+
+
+
 ]

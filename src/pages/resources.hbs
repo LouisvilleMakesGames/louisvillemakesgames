@@ -19,6 +19,10 @@
       <button class="nav-link text-light" id="tools-tab" data-bs-toggle="tab" data-bs-target="#tools" type="button"
         role="tab" aria-controls="tools" aria-selected="false">Tools</button>
     </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link text-light" id="books-tab" data-bs-toggle="tab" data-bs-target="#books" type="button"
+        role="tab" aria-controls="books" aria-selected="false">Books</button>
+    </li>
 
     <li class="nav-item" role="presentation">
       <button class="nav-link text-light" id="freeAssets-tab" data-bs-toggle="tab" data-bs-target="#freeAssets" type="button"
@@ -328,6 +332,32 @@
     </div>
 
 
+    <div class="tab-pane fade" id="books" role="tabpanel" aria-labelledby="books-tab">
+    {{!-- assets tab --}}
+          <h4>Books</h4>
+          <table class="table table-hover table-striped table-dark">
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{#each resources.books}}
+              <tr>
+                <td><a href="{{link}}" target="_blank">{{title}}</a></td>
+                <td>{{author}}</td>
+                <td>{{description}}</td>
+              </tr>
+              {{/each}}
+            </tbody>
+          </table>
+
+
+    </div>
+
+
 <div class="tab-pane fade" id="freeAssets" role="tabpanel" aria-labelledby="freeAssets-tab">
 {{!-- assets tab --}}
       <h4>Free Audio</h4>
@@ -388,13 +418,13 @@
 
 
 
-      
+
       <h2>Marketing</h2>
       <ul>
         <li><a href="http://www.gamasutra.com/blogs/VaheKocharyan/20140628/219850/Zero_Budget_Marketing.php"
             target="_blank">Zero Budget Marketing</a> - An article on Gamasutra about marketing indie games on a zero
           budget.</li>
-        
+
         <li><a href="http://www.pixelprospector.com/" target="_blank">Pixel Prospector</a> - A website with various
           resources for game developers, such as game engines, tutorials, and assets.</li>
       </ul>
@@ -404,12 +434,12 @@
         <li><a href="https://docs.google.com/document/d/1A9DB-Lq69MC-P_powcAHLVCuVgifxHDFSLW0VSr-Ia0/edit?usp=sharing"
             target="_blank">Post Mortem Template </a> - A template for writing about your game jam projects.</li>
         <li><a href="http://www.spriters-resource.com/" target="_blank">The Spriters Resource</a> - A website with a collection of video game sprites and other game assets.</li>
-  
+
       </ul>
 
-   
+
     </div>
- 
+
 
 
 
@@ -420,7 +450,7 @@
     <body>
       <div class="container-fluid">
         <div class="row">
-          
+
           <div class="col-md-7">
             <h1>Why Licenses Matter</h1>
             <p>When creating a game project, it can be tempting to use assets found online as a shortcut to creating

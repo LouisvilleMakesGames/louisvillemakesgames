@@ -183,6 +183,59 @@
 		"link": "https://lmms.io/"
 	  }
 	],
+	"books": [
+		{
+		"title": "Blood, Sweat, and Pixels",
+		"author": "Schreier, Jason",
+		"description":"The triumphant, turbulent stories behind how video games are made",
+		"link": "https://pac.lfpl.org/polaris/search/title.aspx?ctx=1.1033.0.0.7&pos=1&cn=1489744"
+	},
+	{
+	"title": "Ask Iwata",
+	"author": "Satoru Iwata",
+	"description":"Words of Wisdom from Satoru Iwata, Nintendo's Legendary CEO ",
+	"link": "https://pac.lfpl.org/polaris/search/title.aspx?ctx=1.1033.0.0.7&pos=1&cn=2312599"
+},
+
+{
+"title": "Theory of Fun",
+"author": "Raph Koster",
+"description":"",
+"link": ""
+},
+{
+"title": "Things To Do with Video Games",
+"author": "Ian Bogost",
+"description":"",
+"link": ""
+},
+{
+"title": "Art of Game Design",
+"author": "Jesse Schell",
+"description":"",
+"link": ""
+},
+{
+"title": "Game Programming for Artists",
+"author": " Jarryd Huntley & Hanna Brady",
+"description":"Provides a foundation for artists and creatives to jumpstart learning to program their own games.",
+"link": ""
+},
+{
+"title": "Racing the Beam",
+"author": "Book by Ian Bogost & Nick Montfort",
+"description":"",
+"link": ""
+}
+
+
+
+
+
+
+
+	],
+
 	"freeAudio": [
 	  {
 		"name": "Free Music Archive",
