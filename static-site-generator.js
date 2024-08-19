@@ -27,14 +27,18 @@ function addPageData(data) {
 
   newData.site.pages.forEach((page) => {
     if (page.showInNav){
-      var pageName = page.file.replace(".html", "").toLowerCase();
+      if (page.file){
+        var pageName = page.file.replace(".html", "").replace("/", "").toLowerCase();
 
-      
-      var jsonPath = path.join(src, "pages", pageName + ".json");
-      if (fs.existsSync(jsonPath)){
-        newData[pageName] = require("./" + jsonPath);
-      }
-    }
+        
+        var jsonPath = path.join(src, "pages", pageName + ".json");
+        if (fs.existsSync(jsonPath)){
+          newData[pageName] = require("./" + jsonPath);
+        }
+     } else{
+      page.file = page.url;
+     }
+   }
   });
 
   newData["games"].sort(function(a, b) {
@@ -50,11 +54,14 @@ fs.writeFileSync("./data.json", JSON.stringify(data, null, 2));
 
 
 data.site.pages.forEach((page) => {
-  var pageName = page.file.replace(".html", "").toLowerCase();
-  var fileName = page.file;
-  
-  createPage(pageName, data, path.join(dest, fileName));
+  if (page.file && !page.file.includes('http')) {
+    var pageName = page.file.replace(".html", "").toLowerCase();
+    var fileName = page.file;
+    
+    createPage(pageName, data, path.join(dest, fileName));
+  }
 });
+
 
 function insertPartials(templateName) {
   var completeTemplate = fs.readFileSync(path.join(src, config.templatesDirectory, templateName + ".hbs"), "utf8");
