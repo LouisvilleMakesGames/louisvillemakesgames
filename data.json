@@ -59,6 +59,13 @@
         "name": "Contact",
         "file": "contact.html",
         "showInNav": false
+      },
+      {
+        "name": "Store",
+        "url": "https://louisvillemakesgames.printify.me",
+        "showInNav": true,
+        "param": "target=\"_blank\"",
+        "file": "https://louisvillemakesgames.printify.me"
       }
     ]
   },
@@ -74,7 +81,7 @@
       "contentParagraphs": [
         "I kicked off the session by asking everyone to share their favorite video games and asked if they knew who created those games, many mentioned the names of game companies or publishers but I dug deeper to try to get folks to consider the individual people who create games either on small 1-2 person indie teams, or on large 3000 person teams like for Red Dead Redemption 2.",
         "To demystify the process of making video games, I highlighted the various disciplines involved, extending beyond programming to encompass art, music, storytelling, sound design, and much more. The goal was to showcase the collaborative nature of game development and to inspire participants to explore the diverse array of skills required to bring their own game ideas to life.",
-        "Next we talked about tools such as game engines, and explained that each game engine is a tool box for making games and each includes a different number of tools, some smaller ones might be quicker to learn and get started while other might have a larger set of tools and be more capable once you take the time to learn a bunch of them.",
+        "Next we talked about tools such as game engines, and explained that each game engine is a tool box for making games and each includes a different number of tools, some smaller ones might be quicker to learn and get started while others might have a larger set of tools and be more capable once you take the time to learn a bunch of them.",
         "I talked about how a major factor in making games is time, and putting in the effort to learn and teach yourself rather than try to use shortcuts. I mentioned the popular topic of AI like ChatGPT and how it can be a useful tool, but if you ask it to create code for your game without having at least a basic understanding of programming you will have a difficult time solving issues when AI gets things wrong. Like any tool, it can be useful to help but it is not a “do-it-all” solution.",
         "The presentation at the Bon Air Library marked the first in our series of meetups organized as a partnership with Louisville Makes Games and the Louisville Free Public Library. The warm reception from the audience made it evident that this initiative would foster a vibrant community of aspiring game developers in Louisville. I am grateful to have played a part in sparking curiosity and igniting a passion for game creation among the attendees.",
         "If you're interested in joining us for these gatherings and staying updated on all our free public events, be sure to join our group on meetup.com/louisvillemakesgames for email updates!"

@@ -58,6 +58,12 @@
       "name": "Contact",
       "file": "contact.html",
       "showInNav": false
+    },
+    {
+      "name": "Store",
+      "url": "https://louisvillemakesgames.printify.me",
+      "showInNav": true,
+      "param": "target=\"_blank\""
     }
   ]
 }
