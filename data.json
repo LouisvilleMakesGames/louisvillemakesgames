@@ -61,6 +61,11 @@
         "showInNav": false
       },
       {
+        "name": "Press",
+        "file": "press.html",
+        "showInNav": true
+      },
+      {
         "name": "Store",
         "url": "https://louisvillemakesgames.printify.me",
         "showInNav": true,

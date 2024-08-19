@@ -236,3 +236,187 @@ max-height: 185px;
   position: absolute;
   right: 0px;
 }
+
+
+.logo-preview {
+  max-width: 250px;
+  margin: 10px;
+}
+.logo-container {
+margin-top: 25px;
+margin-bottom: 150px;
+}
+.logo-container h2{
+  margin-bottom: 50px;
+}
+.logo-card {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 250px;
+}
+
+.logo-container .card{
+  border: 1px solid white;
+  border-radius: 10px !important;
+  padding: 15px !important;
+}
+
+.logo-container .card-body p{
+  margin-top: 10px !important; 
+  margin-bottom: 0 !important; 
+  margin-left: 0 !important; 
+  margin-right: 0 !important; 
+
+}
+.card .btn.btn-outline-light.btn-sm{
+  font-size: 15px !important;
+}
+
+.card .btn.btn-outline-light.btn-sm:hover{
+  color: white;
+  text-decoration: underline;
+ background: transparent !important; 
+}
+
+
+.swatch-container {
+  display: block !important;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 15px;
+  max-width: 480px;
+}
+
+.swatch-box{
+  min-width: 145px;
+  display: inline-block;
+}
+
+.swatch {
+  display: inline-block !important;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  vertical-align: middle;
+  margin-right: 6px;
+  margin-bottom: 10px;
+}
+
+h5 {
+  margin-bottom: 15px;
+}
+
+p {
+  margin-top: 10px;
+}
+
+
+.logo-lt-bg{
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+.timeline-container {
+  width: 100%;
+  position: relative;
+  margin: 20px 0;
+}
+
+.timeline {
+  position: relative;
+  width: 100%;
+  height: 4px;
+  background-color: #ccc;
+  border-radius: 2px;
+  margin: 50px 0;
+}
+
+.timeline:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: repeating-linear-gradient(90deg, transparent, transparent 10px, black 10px, black 11px);
+}
+
+.event {
+  position: absolute;
+  width: 150px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.event img {
+  width: 50px;
+  height: 50px;
+}
+
+.event .event-content {
+  padding: 10px;
+  background-color: #333; /* Dark background */
+  color: #fff; /* White text */
+  border: 1px solid #222;
+  border-radius: 8px;
+  position: relative;
+}
+
+/* Arrow styling - LMG color palette */
+.event .arrow {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 20px solid #ea3657; /* LMG Red */
+  position: absolute;
+}
+
+/* Top event arrows */
+.top .arrow {
+  border-top: none;
+  border-bottom: 20px solid #ea3657;
+  top: 100%;
+  left: calc(50% - 15px);
+}
+
+/* Bottom event arrows */
+.bottom .arrow {
+  top: -20px;
+  left: calc(50% - 15px);
+}
+
+/* Alternating event positions */
+.top {
+  bottom: 100px;
+}
+
+.bottom {
+  top: 100px;
+}
+
+
+
+#timeline-embed {
+  border-radius: 0 !important;
+    width: 100%;
+    height: 600px;
+    background-color: #201e1e; /* Dark background for the timeline container */
+  }
+
+  /* Customize the timeline slides */
+  .tl-slide {
+    background-color: #2c2a2a !important; /* Dark background for slide */
+
+  }
+.tl-slidenav-title{
+  color: white !important;
+}
+  
