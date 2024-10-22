@@ -40,7 +40,7 @@ function addPageData(data) {
      }
    }
   });
-
+  
   newData["games"].sort(function(a, b) {
     return new Date(b.released) - new Date(a.released);
   });
@@ -65,13 +65,25 @@ data.site.pages.forEach((page) => {
 
 function insertPartials(templateName) {
   var completeTemplate = fs.readFileSync(path.join(src, config.templatesDirectory, templateName + ".hbs"), "utf8");
-  config.partials.forEach((partial) => {
-    var partialTemplate = fs.readFileSync(path.join(src, config.partialsDirectory, partial + ".hbs"), "utf8");
-    var partialTag = "{{>tag}}".replace("tag", partial);
-    completeTemplate = completeTemplate.replace(partialTag, partialTemplate);
+  
+  // Read all partial files from the partialsDirectory
+  const partialFiles = fs.readdirSync(path.join(src, config.partialsDirectory)).filter(file => file.endsWith(".hbs"));
+
+  // Register each partial automatically
+  partialFiles.forEach((partialFile) => {
+    try {
+      var partialName = partialFile.replace(".hbs", ""); // Remove the .hbs extension to get the partial name
+      var partialTemplate = fs.readFileSync(path.join(src, config.partialsDirectory, partialFile), "utf8");
+      handlebars.registerPartial(partialName, partialTemplate); // Register the partial
+      console.log(`Registered partial: ${partialName}`); // Debugging log
+    } catch (error) {
+      console.error(`Error loading partial: ${partialFile} - ${error.message}`);
+    }
   });
+
   return completeTemplate;
 }
+
 
 function createPage(templateName, data, outputFileName) {
   var html = renderFromExternalTemplate(insertPartials(templateName), data);
