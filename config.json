@@ -6,9 +6,6 @@
   "templates": [
     
   ],
-  "partialsDirectory": "partials",
-  "partials": [
-  "header",
-  "footer"
-  ]
+  "partialsDirectory": "partials"
+
 }
