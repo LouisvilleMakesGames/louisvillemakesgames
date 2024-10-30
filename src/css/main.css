@@ -104,9 +104,10 @@ main.container {
   z-index: 3;
 }
 
-.event-description,
-.event-info {
-  max-width: 800px;
+.event-description{
+
+  max-width: 700px;
+  margin: 40px auto;
 }
 
 .text-white {
@@ -137,8 +138,8 @@ main.container {
 .game-image {
   width: 100%;
   height: auto;
-  object-fit: cover;
-  min-height: 276px;
+  /* object-fit: cover;
+  min-height: 276px; */
 }
 
 /* Responsive Design */
@@ -201,3 +202,20 @@ main.container {
 .display-4 {
   font-size: 2.7rem !important; /* Use !important to ensure it overrides Bootstrap */
 }
+
+
+
+i.ion-md-square {
+
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+
+  margin-right: 5px;
+}
+
+.smaller-font {
+  font-size: 0.75em;
+}
+
+
