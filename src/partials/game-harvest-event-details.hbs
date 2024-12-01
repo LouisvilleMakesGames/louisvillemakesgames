@@ -80,7 +80,7 @@
           <img src="img/parking.png" alt="Warp Zone Louisville co-working space Louisville KY - parking options" class="img-fluid mb-3">
           
           <p>
-            <i class="ion-md-square" style="background:#e9f165;"></i> Metered parking - West Washington St $2.25/hr (<a href="https://www.gotolouisville.com/travel-tools/transportation/go-502/" target="_blank">Go 502 app</a> code 3064)<br>
+            <i class="ion-md-square" style="background:#e9f165;"></i> Metered parking - West Washington St $2.75/hr (<a href="https://www.gotolouisville.com/travel-tools/transportation/go-502/" target="_blank">Go 502 app</a> code 3064)<br>
             <i class="ion-md-square" style="background:#e935a7;"></i> Science Center Lot - River Road $15/day<br>
             <i class="ion-md-square" style="background:#31c6ff;"></i> Triangle Lot - River Road $15/day<br>
             <i class="ion-md-square" style="background:#9537b7;"></i> Ali Center Garage $15/day<br>
@@ -118,3 +118,167 @@
 
   countdown();
 </script>
+
+<style>
+  /* Button styling */
+.btn-fall {
+  background-color: #ff9800;
+  border-color: #ff9800;
+  color: white;
+  font-size: 1.25rem;
+  text-align: left;
+  border-radius: 0;
+  border: 0;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.btn-fall .emoji {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+/* Hover effects for buttons */
+.btn-fall:hover {
+  background-color: #e69500;
+  border-color: #e69500;
+}
+
+/* Event Info Styling */
+.event-info {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.countdown-timer {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #ff9800;
+}
+
+/* Banner and overlay styling */
+.banner-container {
+  position: relative;
+  width: 100%;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.event-logo {
+  z-index: 3;
+}
+
+.event-description {
+  max-width: 700px;
+  margin: 40px auto;
+}
+
+.text-white {
+  color: white;
+}
+
+/* Games section */
+.games-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.game-item {
+  background-color: transparent;
+  text-align: center;
+}
+
+.game-item h3 {
+  margin-bottom: 10px;
+}
+
+.game-item p {
+  margin-bottom: 10px;
+}
+
+.game-image {
+  width: 100%;
+  height: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .games-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .games-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .games-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Hide background image and change positioning to relative when width is less than 1200px */
+@media (max-width: 1200px) {
+  .banner-container {
+    background-image: none;
+  }
+
+  .banner-image {
+    display: none; /* Hides the banner image */
+  }
+
+  /* Make all elements position relative */
+  .banner-container,
+  .overlay-content,
+  .event-logo,
+  .event-description,
+  .event-info,
+  .col-md-8,
+  .col-md-4 {
+    position: relative !important;
+  }
+}
+
+.display-4 {
+  font-size: 2.7rem !important; /* Use !important to ensure it overrides Bootstrap */
+}
+
+i.ion-md-square {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.smaller-font {
+  font-size: 0.75em;
+}
+
+</style>
