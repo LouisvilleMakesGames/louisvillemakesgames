@@ -1,12 +1,13 @@
 #!/bin/bash
 
+
 # Load environment variables from .env
 if [ ! -f .env ]; then
   echo "🚨 .env file not found! Please create it with the following content:"
   echo "--------------------------------------------"
-  echo "USERNAME=directors"
-  echo "SERVER=147.182.135.126"
-  echo "SITE_DIRECTORY=/var/www/louisvillemakesgames.org/"
+  echo "USERNAME=longegg"
+  echo "SERVER=123.4.876.123"
+  echo "SITE_DIRECTORY=/var/www/trashbaby.cool/"
   echo "--------------------------------------------"
   exit 1
 fi
