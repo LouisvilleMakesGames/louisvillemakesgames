@@ -13,6 +13,8 @@ makeDirIfNotExist(path.join(dest, "css"));
 copydir.sync(path.join(src, "css"), path.join(dest, "css"));
 makeDirIfNotExist(path.join(dest, "img"));
 copydir.sync(path.join(src, "img"), path.join(dest, "img"));
+makeDirIfNotExist(path.join(dest, "icons"));
+copydir.sync(path.join(src, "icons"), path.join(dest, "icons"));
 makeDirIfNotExist(path.join(dest, "warpzone"));
 copydir.sync(path.join(src, "pages/warpzone"), path.join(dest, "warpzone"));
 
